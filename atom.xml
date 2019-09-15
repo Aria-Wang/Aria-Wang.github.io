@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Aria-Wang.github.io/"/>
-  <updated>2019-09-15T09:25:07.917Z</updated>
+  <updated>2019-09-15T15:20:09.276Z</updated>
   <id>http://Aria-Wang.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从命题出发</title>
+    <link href="http://Aria-Wang.github.io/2019/09/15/%E5%91%BD%E9%A2%98%E3%80%81%E5%91%BD%E9%A2%98%E8%81%94%E7%BB%93%E8%AF%8D%E3%80%81%E5%91%BD%E9%A2%98%E5%8F%98%E5%85%83%E5%8F%8A%E5%91%BD%E9%A2%98%E5%85%AC%E5%BC%8F/"/>
+    <id>http://Aria-Wang.github.io/2019/09/15/命题、命题联结词、命题变元及命题公式/</id>
+    <published>2019-09-15T15:20:19.000Z</published>
+    <updated>2019-09-15T15:20:09.276Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在一个二值逻辑系统中，命题是一个或真或假的陈述语句.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="http://Aria-Wang.github.io/categories/Note/"/>
+    
+    
+      <category term="Discrete-Mathematics" scheme="http://Aria-Wang.github.io/tags/Discrete-Mathematics/"/>
+    
+  </entry>
   
   <entry>
     <title>无关童话</title>
@@ -96,29 +117,6 @@
     
     
       <category term="MATLAB" scheme="http://Aria-Wang.github.io/tags/MATLAB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从命题出发</title>
-    <link href="http://Aria-Wang.github.io/2019/09/10/%E5%91%BD%E9%A2%98%E3%80%81%E5%91%BD%E9%A2%98%E8%81%94%E7%BB%93%E8%AF%8D%E3%80%81%E5%91%BD%E9%A2%98%E5%8F%98%E5%85%83%E5%8F%8A%E5%91%BD%E9%A2%98%E5%85%AC%E5%BC%8F/"/>
-    <id>http://Aria-Wang.github.io/2019/09/10/命题、命题联结词、命题变元及命题公式/</id>
-    <published>2019-09-10T11:57:19.000Z</published>
-    <updated>2019-09-15T15:16:21.511Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;命题是一个或真或假的陈述语句。&lt;/p&gt;
-&lt;p&gt;命题是一个或真或假的陈述语句&lt;/p&gt;
-&lt;p&gt;在一个二值逻辑系统中，命题是一个或真或假的陈述语句.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Note" scheme="http://Aria-Wang.github.io/categories/Note/"/>
-    
-    
-      <category term="Discrete-Mathematics。" scheme="http://Aria-Wang.github.io/tags/Discrete-Mathematics%E3%80%82/"/>
     
   </entry>
   

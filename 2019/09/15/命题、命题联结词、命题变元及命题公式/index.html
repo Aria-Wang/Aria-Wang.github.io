@@ -80,7 +80,6 @@
       
         <p>在一个二值逻辑系统中，命题是一个或真或假的陈述语句.</p>
 <a id="more"></a>
-
 <p>离散数学主要分为几个大部分：</p>
 <ol>
 <li>数理逻辑</li>
@@ -135,77 +134,91 @@
 </ol>
 </blockquote>
 <p>类比代数运算，我们在<u>命题演算</u>中，也有类似代数运算中的运算术语：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
-<th align="center">x</th>
-<th align="center">+</th>
-<th align="center">3</th>
+<th style="text-align:center">x</th>
+<th style="text-align:center">+</th>
+<th style="text-align:center">3</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">运算对象</td>
-<td align="center">运算符</td>
-<td align="center">运算对象</td>
+<tbody>
+<tr>
+<td style="text-align:center">运算对象</td>
+<td style="text-align:center">运算符</td>
+<td style="text-align:center">运算对象</td>
 </tr>
 <tr>
-<td align="center"><code>类</code>⬇<code>比</code></td>
-<td align="center"><code>类</code>⬇<code>比</code></td>
-<td align="center"><code>类</code>⬇<code>比</code></td>
+<td style="text-align:center"><code>类</code>⬇<code>比</code></td>
+<td style="text-align:center"><code>类</code>⬇<code>比</code></td>
+<td style="text-align:center"><code>类</code>⬇<code>比</code></td>
 </tr>
 <tr>
-<td align="center">P</td>
-<td align="center">联结词</td>
-<td align="center">Q</td>
+<td style="text-align:center">P</td>
+<td style="text-align:center">联结词</td>
+<td style="text-align:center">Q</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>联结词就是命题演算中的运算符，叫逻辑运算符或叫逻辑联结词。</p>
-<p>常用联结词如下：<br>$$<br>1.否定词\lnot\2.合取词\land\3.析取词\lor\4.蕴含词\to\5.等值词\leftrightarrow<br>$$<br>很自然地，这令人联想起初高中阶段所学习的（不完备的）集合论：“否定词”即“非”；“合取词”即“交（∩）”；“析取词”即“并（∪）；“蕴含词”则类似于“推出”即“（p是q的）充分/必要条件”；同样的，“等值词”则类似于充要条件。</p>
+<p>常用联结词如下：</p>
+<script type="math/tex; mode=display">
+1.否定词\lnot\\2.合取词\land\\3.析取词\lor\\4.蕴含词\to\\5.等值词\leftrightarrow</script><p>很自然地，这令人联想起初高中阶段所学习的（不完备的）集合论：“否定词”即“非”；“合取词”即“交（∩）”；“析取词”即“并（∪）；“蕴含词”则类似于“推出”即“（p是q的）充分/必要条件”；同样的，“等值词”则类似于充要条件。</p>
 <blockquote>
 <p>命题逻辑中，为了符号化复合命题，定义了五个表示联结词的符号，称为逻辑联结词。</p>
 <p>数理逻辑的研究方法的主要特征即：构造各种符号语言来代替自然语言，我们称完全由符号所构成的语言为形式语言。为了达到这个目的，就要求进一步抽象化，即将联结词也符号化。</p>
 </blockquote>
-<h5 id="否定词"><a href="#否定词" class="headerlink" title="否定词"></a>否定词</h5><p>$$<br>\forall命题P，我们称命题“P不真”为P的否定或非P，记作\lnot P.<br>$$</p>
-<p>即对命题的否定</p>
-<h5 id="合取词"><a href="#合取词" class="headerlink" title="合取词"></a>合取词</h5><p>$$<br>\forall 命题P、Q，我们称命题“P并且Q”为P和Q的合取，记为P\land Q.<br>$$</p>
-<p>真值表<br>$$<br>P……Q……P\land Q\0……..0………0…..\0……..1………0…..\1……..0………0…..\1……..1………1…..<br>$$</p>
-<h5 id="析取词，即，或："><a href="#析取词，即，或：" class="headerlink" title="析取词，即，或："></a>析取词，即，或：</h5><p>$$<br>\forall 命题P、Q，我们称命题“P或Q”为P和Q的析取，记为P\lor Q.<br>$$</p>
-<p>真值表<br>$$<br>P……Q……P\lor Q\0……..0………0…..\0……..1………1…..\1……..0………1…..\1……..1………1…..<br>$$</p>
-<ul>
+<h5 id="否定词"><a href="#否定词" class="headerlink" title="否定词"></a>否定词</h5><script type="math/tex; mode=display">
+\forall命题P，我们称命题“P不真”为P的否定或非P，记作\lnot P.</script><p>即对命题的否定</p>
+<h5 id="合取词"><a href="#合取词" class="headerlink" title="合取词"></a>合取词</h5><script type="math/tex; mode=display">
+\forall 命题P、Q，我们称命题“P并且Q”为P和Q的合取，记为P\land Q.</script><p>真值表</p>
+<script type="math/tex; mode=display">
+P……Q……P\land Q\\0……..0......…0.....\\0……..1......…0.....\\1……..0......…0.....\\1……..1......…1.....</script><h5 id="析取词，即，或："><a href="#析取词，即，或：" class="headerlink" title="析取词，即，或："></a>析取词，即，或：</h5><script type="math/tex; mode=display">
+\forall 命题P、Q，我们称命题“P或Q”为P和Q的析取，记为P\lor Q.</script><p>真值表</p>
+<script type="math/tex; mode=display">
+P……Q……P\lor Q\\0……..0......…0.....\\0……..1......…1.....\\1……..0......…1.....\\1……..1......…1.....</script><ul>
 <li>生活语言中“或者”是指从联结的几部分中选一，<u>而逻辑联结词“或”都是指联结的几部分中<strong>至少选一</strong>。</u></li>
 <li>在数理逻辑中，或分为<strong>可兼或</strong>与<strong>不可兼或</strong>，通常情况下，我们讨论的都是不可兼或（至少这本教材是）</li>
 </ul>
 <blockquote>
 <ul>
-<li>可兼或：<br>$$<br>P:今晚我看书\Q:今晚我写字\P\lor Q:今晚我看书或写字\P\land Q:今晚我既看书也写字\oplus<br>$$<br>真值表</li>
+<li>可兼或：<script type="math/tex; mode=display">
+P:今晚我看书\\Q:今晚我写字\\P\lor Q:今晚我看书或写字\\P\land Q:今晚我既看书也写字\oplus</script>真值表</li>
 </ul>
-<p>$$<br>P……Q……P\lor Q\1……..1………1…..<br>$$</p>
-<ul>
-<li>不可兼或：<br>$$<br>P:我向东走\Q:我向西走\P\lor Q:我向东或向西走\P\land Q:不存在[我不可能既向东走又向西走]\这种情况我们记作P\oplus Q<br>$$<br>真值表<br>$$<br>P……Q……P\lor Q\1…….1..…。不存在<br>$$</li>
+<script type="math/tex; mode=display">
+P……Q……P\lor Q\\1……..1......…1.....</script><ul>
+<li>不可兼或：<script type="math/tex; mode=display">
+P:我向东走\\Q:我向西走\\P\lor Q:我向东或向西走\\P\land Q:不存在[我不可能既向东走又向西走]\\这种情况我们记作P\oplus Q</script>真值表<script type="math/tex; mode=display">
+P……Q……P\lor Q\\1…….1..…。不存在</script></li>
 </ul>
 </blockquote>
-<h5 id="蕴含词"><a href="#蕴含词" class="headerlink" title="蕴含词"></a>蕴含词</h5><p>$$<br>\forall命题P、Q，则我们称命题“P蕴含Q”为蕴含式，记作“P\to Q”.<br>$$</p>
-<p>读作“P蕴含Q”，或“如果P，那么Q”。运算对象P叫做<strong>前提</strong>、<strong>假设</strong>或<strong>前件</strong>，而Q叫做<strong>结论</strong>或<strong>后件</strong>。</p>
+<h5 id="蕴含词"><a href="#蕴含词" class="headerlink" title="蕴含词"></a>蕴含词</h5><script type="math/tex; mode=display">
+\forall命题P、Q，则我们称命题“P蕴含Q”为蕴含式，记作“P\to Q”.</script><p>读作“P蕴含Q”，或“如果P，那么Q”。运算对象P叫做<strong>前提</strong>、<strong>假设</strong>或<strong>前件</strong>，而Q叫做<strong>结论</strong>或<strong>后件</strong>。</p>
 <p><strong>当前件为假时，无论后件（结论）为真或假，蕴含式均为真！</strong></p>
 <blockquote>
 <p>当前件为假时，推出的后件无论是什么奇怪的结论，从逻辑推理的角度去看，<strong>推理</strong>本身都是没有问题的，即，推理本身的过程无错，而前件出错，故蕴含式为真。</p>
 <p><strong>抓住蕴含式与后件是两个东西这一关键点，不难理解蕴含式的真假（在前件为假的情况下）与后件真假无关。</strong></p>
 </blockquote>
-<p>真值表<br>$$<br>P……Q……P\to Q\0……..0………1…..\0……..1………1…..\1……..0………0…..\1……..1………1…..<br>$$</p>
-<h6 id="形式蕴含与实质蕴含"><a href="#形式蕴含与实质蕴含" class="headerlink" title="形式蕴含与实质蕴含"></a>形式蕴含与实质蕴含</h6><p>我们称<u>前件与后件之间具有因果或实质关系</u>的蕴含式为<strong>形式蕴含</strong>，<u>前件与后件之间无因果或实质联系</u>的蕴含式为<strong>实质蕴含</strong>。</p>
-<h6 id="逆命题、反命题与逆反命题"><a href="#逆命题、反命题与逆反命题" class="headerlink" title="逆命题、反命题与逆反命题"></a>逆命题、反命题与逆反命题</h6><p>$$<br>给定命题P\to Q，我们把Q\to P，\lnot P\to\lnot Q，\lnot Q\to\lnot P，\分别称为命题P\to Q的逆命题、反命题和逆反命题。<br>$$</p>
-<h5 id="当且仅当"><a href="#当且仅当" class="headerlink" title="当且仅当"></a>当且仅当</h5><p>我的理解是：对任意命题P、Q，当命题P时，那么命题Q，且<strong>仅当命题P时，有命题Q</strong>.</p>
+<p>真值表</p>
+<script type="math/tex; mode=display">
+P……Q……P\to Q\\0……..0......…1.....\\0……..1......…1.....\\1……..0......…0.....\\1……..1......…1.....</script><h6 id="形式蕴含与实质蕴含"><a href="#形式蕴含与实质蕴含" class="headerlink" title="形式蕴含与实质蕴含"></a>形式蕴含与实质蕴含</h6><p>我们称<u>前件与后件之间具有因果或实质关系</u>的蕴含式为<strong>形式蕴含</strong>，<u>前件与后件之间无因果或实质联系</u>的蕴含式为<strong>实质蕴含</strong>。</p>
+<h6 id="逆命题、反命题与逆反命题"><a href="#逆命题、反命题与逆反命题" class="headerlink" title="逆命题、反命题与逆反命题"></a>逆命题、反命题与逆反命题</h6><script type="math/tex; mode=display">
+给定命题P\to Q，我们把Q\to P，\lnot P\to\lnot Q，\lnot Q\to\lnot P，\\分别称为命题P\to Q的逆命题、反命题和逆反命题。</script><h5 id="当且仅当"><a href="#当且仅当" class="headerlink" title="当且仅当"></a>当且仅当</h5><p>我的理解是：对任意命题P、Q，当命题P时，那么命题Q，且<strong>仅当命题P时，有命题Q</strong>.</p>
 <blockquote>
 <p>那么 非命题P 时，理所当然也应当是 非命题Q .</p>
 </blockquote>
-<p>即<br>$$<br>\forall命题P、Q，P\to Q，\lnot P\to\lnot Q<br>$$</p>
-<h5 id="等值词"><a href="#等值词" class="headerlink" title="等值词"></a>等值词</h5><p>$$<br>\forall命题P、Q，我们称命题“P等值于Q”为等值式，记作P\leftrightarrow Q.<br>$$</p>
-<p>真值表<br>$$<br>P……Q……P\leftrightarrow Q\0……..0………1…..\0……..1………0…..\1……..0………0…..\1……..1………1…..<br>$$</p>
-<h5 id="运算次序"><a href="#运算次序" class="headerlink" title="运算次序"></a>运算次序</h5><ul>
-<li><p>$$<br>运算符结合力的强弱顺序为\lnot、\land、\lor、\to、\leftrightarrow，凡符合这个顺序的，括号均可省去。<br>$$</p>
-</li>
-<li><p>$$<br>相同的运算符，按从左至右次序计算时，括号可省去。<br>$$</p>
-</li>
+<p>即</p>
+<script type="math/tex; mode=display">
+\forall命题P、Q，P\to Q，\lnot P\to\lnot Q</script><h5 id="等值词"><a href="#等值词" class="headerlink" title="等值词"></a>等值词</h5><script type="math/tex; mode=display">
+\forall命题P、Q，我们称命题“P等值于Q”为等值式，记作P\leftrightarrow Q.</script><p>真值表</p>
+<script type="math/tex; mode=display">
+P……Q……P\leftrightarrow Q\\0……..0......…1.....\\0……..1......…0.....\\1……..0......…0.....\\1……..1......…1.....</script><h5 id="运算次序"><a href="#运算次序" class="headerlink" title="运算次序"></a>运算次序</h5><ul>
+<li><script type="math/tex; mode=display">
+运算符结合力的强弱顺序为\lnot、\land、\lor、\to、\leftrightarrow，凡符合这个顺序的，括号均可省去。</script></li>
+<li><script type="math/tex; mode=display">
+相同的运算符，按从左至右次序计算时，括号可省去。</script></li>
 </ul>
 <h3 id="1-1-3按真值分类的命题"><a href="#1-1-3按真值分类的命题" class="headerlink" title="1.1.3按真值分类的命题"></a>1.1.3按真值分类的命题</h3><h4 id="命题变元与命题常元"><a href="#命题变元与命题常元" class="headerlink" title="命题变元与命题常元"></a>命题变元与命题常元</h4><blockquote>
 <p>通常，如果P代表<u>真值未指定</u>的<u>任意命题</u>，我们就称P为命题变元；</p>
@@ -218,8 +231,8 @@
 <ol>
 <li><p>单个原子公式时命题公式</p>
 </li>
-<li><p>$$<br>如果A和B是命题公式，则(\lnot A)、(A\land B)、(A\lor B)、(A\to B)、(A\leftrightarrow B)是命题公式<br>$$</p>
-</li>
+<li><script type="math/tex; mode=display">
+如果A和B是命题公式，则(\lnot A)、(A\land B)、(A\lor B)、(A\to B)、(A\leftrightarrow B)是命题公式</script></li>
 <li><p>只有<strong>有限步</strong>地应用规则1.和2.生成的公式，才是命题公式</p>
 </li>
 </ol>
@@ -229,7 +242,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://Aria-Wang.github.io/2019/09/15/命题、命题联结词、命题变元及命题公式/" data-id="ck0l4m818000ws4b6ruovysgr"
+      <a data-url="http://Aria-Wang.github.io/2019/09/15/命题、命题联结词、命题变元及命题公式/" data-id="ck0m725vo000qc8b6budcjmph"
          class="article-share-link">Share</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Discrete-Mathematics/">Discrete-Mathematics</a></li></ul>

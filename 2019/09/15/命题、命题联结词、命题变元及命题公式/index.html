@@ -242,7 +242,7 @@ P……Q……P\leftrightarrow Q\\0……..0......…1.....\\0……..1......…
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://Aria-Wang.github.io/2019/09/15/命题、命题联结词、命题变元及命题公式/" data-id="ck0mkbmie000p8sb6f2m3jfh3"
+      <a data-url="http://Aria-Wang.github.io/2019/09/15/命题、命题联结词、命题变元及命题公式/" data-id="ck0mkg6ne000wvob644lbz5u6"
          class="article-share-link">Share</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Discrete-Mathematics/">Discrete-Mathematics</a></li></ul>
@@ -401,8 +401,23 @@ P……Q……P\leftrightarrow Q\\0……..0......…1.....\\0……..1......…
   </script>
 
 
-<script src="/js/ocean.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<script src="/js/ocean.js"></script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </body>
 </html>
 

@@ -85,7 +85,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://Aria-Wang.github.io/2019/08/18/那些优秀的人/" data-id="ck0m725t50006c8b60syaol2q"
+      <a data-url="http://Aria-Wang.github.io/2019/08/18/那些优秀的人/" data-id="ck0m812to000ik0b65bok623i"
          class="article-share-link">Share</a>
       
     </footer>
@@ -251,7 +251,22 @@
   </script>
 
 
-<script src="/js/ocean.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<script src="/js/ocean.js"></script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </body>
 </html>

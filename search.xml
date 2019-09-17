@@ -1,95 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[从命题出发]]></title>
-    <url>%2F2019%2F09%2F15%2F%E5%91%BD%E9%A2%98%E3%80%81%E5%91%BD%E9%A2%98%E8%81%94%E7%BB%93%E8%AF%8D%E3%80%81%E5%91%BD%E9%A2%98%E5%8F%98%E5%85%83%E5%8F%8A%E5%91%BD%E9%A2%98%E5%85%AC%E5%BC%8F%2F</url>
-    <content type="text"><![CDATA[在一个二值逻辑系统中，命题是一个或真或假的陈述语句. 离散数学主要分为几个大部分： 数理逻辑 集合论 图论 代数结构 首先是数理逻辑。 逻辑是研究推理的科学，分为形式逻辑与辩证逻辑。而所谓数理逻辑，就是用数学方法研究形式逻辑，研究推理的一门科学。 数学方法，主要是指引进一套符号体系的方法，因此数理逻辑有叫符号逻辑。 现代数理逻辑有4大分支：证明论、模型论、递归论和公理化集合论。而数理逻辑的共同基础就是命题演算和谓词演算 。（即古典数理逻辑） 那么，这场discrete mathematics 的旅程，我们将从命题出发。 （一）Discrete Mathematics 的旅程，从命题出发1.1.1命题与悖论命题断言是一个陈述语句。命题是一个或真或假而不能两者都是的断言，即命题是一个或真或假的陈述语句。命题为真，真值为真；命题为假，真值为假。 在一个二值逻辑的系统中，命题的真值必须是真或假。 例 今天下雪 √ 3+3=6 √ x+y&gt;4 × 真好啊！ √ 你去哪里？ × 我正在说谎 ？ 悖论断言（6）是一个悖论而非命题。 这句断言是真是假？如果我说的是真话，那么“我正在说谎”，这与我说真话矛盾；如果我说的是假话，那么“我正在说谎”为假，即“我没在说谎”，那么我说的就是真话，这与我说的是假话这一前提矛盾。所以我既非说谎也没有说真话，即我们无法判断这一断言的真假。 断言“我正在说谎”并不能指定它的真假，所以它不是命题，这种断言我们称之为悖论。 悖论都不是命题. 1.1.2原子命题与命题联结原子命题当一个命题已不能分解为更简单的命题时，我们将这个命题称为原子命题或本原命题。 命题和本原命题通常用大写字母P、Q、R…表示。 命题联结命题和原子命题常常可以通过一些联结词构成新命题，这种新命题叫复合命题。 例： ​ P：明天下雪​ Q：明天下雨 是两个命题，利用联结词“不”、“并且”、“或（者）”等可分别构成新命题： “明天不下雪”； “明天下雪并且明天下雨”； “明天下雪或者明天下雨”等. 即 “非P”； “P且Q”； “P或Q”等. 类比代数运算，我们在命题演算中，也有类似代数运算中的运算术语： x + 3 运算对象 运算符 运算对象 类⬇比 类⬇比 类⬇比 P 联结词 Q 联结词就是命题演算中的运算符，叫逻辑运算符或叫逻辑联结词。 常用联结词如下： 1.否定词\lnot\\2.合取词\land\\3.析取词\lor\\4.蕴含词\to\\5.等值词\leftrightarrow很自然地，这令人联想起初高中阶段所学习的（不完备的）集合论：“否定词”即“非”；“合取词”即“交（∩）”；“析取词”即“并（∪）；“蕴含词”则类似于“推出”即“（p是q的）充分/必要条件”；同样的，“等值词”则类似于充要条件。 命题逻辑中，为了符号化复合命题，定义了五个表示联结词的符号，称为逻辑联结词。 数理逻辑的研究方法的主要特征即：构造各种符号语言来代替自然语言，我们称完全由符号所构成的语言为形式语言。为了达到这个目的，就要求进一步抽象化，即将联结词也符号化。 否定词 \forall命题P，我们称命题“P不真”为P的否定或非P，记作\lnot P.即对命题的否定 合取词 \forall 命题P、Q，我们称命题“P并且Q”为P和Q的合取，记为P\land Q.真值表 P……Q……P\land Q\\0……..0......…0.....\\0……..1......…0.....\\1……..0......…0.....\\1……..1......…1.....析取词，即，或： \forall 命题P、Q，我们称命题“P或Q”为P和Q的析取，记为P\lor Q.真值表 P……Q……P\lor Q\\0……..0......…0.....\\0……..1......…1.....\\1……..0......…1.....\\1……..1......…1..... 生活语言中“或者”是指从联结的几部分中选一，而逻辑联结词“或”都是指联结的几部分中至少选一。 在数理逻辑中，或分为可兼或与不可兼或，通常情况下，我们讨论的都是不可兼或（至少这本教材是） 可兼或： P:今晚我看书\\Q:今晚我写字\\P\lor Q:今晚我看书或写字\\P\land Q:今晚我既看书也写字真值表 P……Q……P\lor Q\\1……..1......…1..... 不可兼或： P:我向东走\\Q:我向西走\\P\lor Q:我向东或向西走\\P\land Q:不存在[我不可能既向东走又向西走]\\这种情况我们记作P\oplus Q真值表 P……Q……P\lor Q\\1…….1..…。不存在 蕴含词 \forall命题P、Q，则我们称命题“P蕴含Q”为蕴含式，记作“P\to Q”.读作“P蕴含Q”，或“如果P，那么Q”。运算对象P叫做前提、假设或前件，而Q叫做结论或后件。 当前件为假时，无论后件（结论）为真或假，蕴含式均为真！ 当前件为假时，推出的后件无论是什么奇怪的结论，从逻辑推理的角度去看，推理本身都是没有问题的，即，推理本身的过程无错，而前件出错，故蕴含式为真。 抓住蕴含式与后件是两个东西这一关键点，不难理解蕴含式的真假（在前件为假的情况下）与后件真假无关。 真值表 P……Q……P\to Q\\0……..0......…1.....\\0……..1......…1.....\\1……..0......…0.....\\1……..1......…1.....形式蕴含与实质蕴含我们称前件与后件之间具有因果或实质关系的蕴含式为形式蕴含，前件与后件之间无因果或实质联系的蕴含式为实质蕴含。 逆命题、反命题与逆反命题 给定命题P\to Q，我们把Q\to P，\lnot P\to\lnot Q，\lnot Q\to\lnot P，\\分别称为命题P\to Q的逆命题、反命题和逆反命题。当且仅当我的理解是：对任意命题P、Q，当命题P时，那么命题Q，且仅当命题P时，有命题Q. 那么 非命题P 时，理所当然也应当是 非命题Q . 即 \forall命题P、Q，P\to Q，\lnot P\to\lnot Q等值词 \forall命题P、Q，我们称命题“P等值于Q”为等值式，记作P\leftrightarrow Q.真值表 P……Q……P\leftrightarrow Q\\0……..0......…1.....\\0……..1......…0.....\\1……..0......…0.....\\1……..1......…1.....运算次序 运算符结合力的强弱顺序为\lnot、\land、\lor、\to、\leftrightarrow，凡符合这个顺序的，括号均可省去。 相同的运算符，按从左至右次序计算时，括号可省去。 1.1.3按真值分类的命题命题变元与命题常元 通常，如果P代表真值未指定的任意命题，我们就称P为命题变元； 而，如果P代表一个真值已指定的命题，我们就称P为命题常元。 由于在命题演算中，我们并不关心具体命题的涵义，只关心其真假值。因此，我们可以形式地定义它们： 以“真”、“假”为其变域的变元，称为命题变元；T和F称为命题常元。 原子公式与命题公式单个命题变元和命题常元称为原子公式。 由以下形成规则生成的公式叫命题公式（简称公式）： 单个原子公式时命题公式 如果A和B是命题公式，则(\lnot A)、(A\land B)、(A\lor B)、(A\to B)、(A\leftrightarrow B)是命题公式 只有有限步地应用规则1.和2.生成的公式，才是命题公式 这种定义叫归纳定义，也叫递归定义。由这种定义产生的公式叫合式公式.（据说以后将专门阐述） 命题公式的真假值一般是不确定的。当命题公式中所有的命题变元代以命题时，命题公式就变为命题。在不致产生混乱时，我们把命题公式也叫做命题。]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>从命题出发</title>
+      <link href="/2019/09/15/%E5%91%BD%E9%A2%98%E3%80%81%E5%91%BD%E9%A2%98%E8%81%94%E7%BB%93%E8%AF%8D%E3%80%81%E5%91%BD%E9%A2%98%E5%8F%98%E5%85%83%E5%8F%8A%E5%91%BD%E9%A2%98%E5%85%AC%E5%BC%8F/"/>
+      <url>/2019/09/15/%E5%91%BD%E9%A2%98%E3%80%81%E5%91%BD%E9%A2%98%E8%81%94%E7%BB%93%E8%AF%8D%E3%80%81%E5%91%BD%E9%A2%98%E5%8F%98%E5%85%83%E5%8F%8A%E5%91%BD%E9%A2%98%E5%85%AC%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<p>在一个二值逻辑系统中，命题是一个或真或假的陈述语句.</p><a id="more"></a><p>离散数学主要分为几个大部分：</p><ol><li>数理逻辑</li><li>集合论</li><li>图论</li><li>代数结构</li></ol><hr><p>首先是数理逻辑。</p><p>逻辑是研究推理的科学，分为<strong>形式逻辑</strong>与<strong>辩证逻辑</strong>。而所谓<u>数理逻辑</u>，就是用数学方法研究<u>形式逻辑</u>，研究推理的一门科学。</p><blockquote><p>数学方法，主要是指引进一套符号体系的方法，因此数理逻辑有叫符号逻辑。</p></blockquote><p>现代数理逻辑有4大分支：<strong>证明论</strong>、<strong>模型论</strong>、<strong>递归论</strong>和<strong>公理化集合论</strong>。而数理逻辑的共同基础就是<strong><em>命题演算和谓词演算</em></strong> 。（即古典数理逻辑）</p><p><em>那么，这场discrete mathematics 的旅程，我们将从命题出发。</em></p><h1 id="（一）Discrete-Mathematics-的旅程，从命题出发"><a href="#（一）Discrete-Mathematics-的旅程，从命题出发" class="headerlink" title="（一）Discrete Mathematics 的旅程，从命题出发"></a>（一）Discrete Mathematics 的旅程，从命题出发</h1><h2 id="1-1-1命题与悖论"><a href="#1-1-1命题与悖论" class="headerlink" title="1.1.1命题与悖论"></a>1.1.1命题与悖论</h2><h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>断言是一个陈述语句。命题是<strong>一个或真或假<u>而不能两者都是</u></strong>的断言，即<strong><u>命题是一个或真或假的陈述语句</u></strong>。命题为真，真值为真；命题为假，真值为假。</p><p>在一个<strong>二值逻辑</strong>的系统中，命题的真值必须是<strong>真</strong>或<strong>假</strong>。</p><blockquote><p>例</p><ol><li>今天下雪                √ </li><li>3+3=6                     √</li><li>x+y&gt;4                      ×</li><li>真好啊！                 √</li><li>你去哪里？             ×</li><li>我正在说谎             <strong><em>？</em></strong>   </li></ol></blockquote><h3 id="悖论"><a href="#悖论" class="headerlink" title="悖论"></a>悖论</h3><p>断言（6）是一个<strong>悖论</strong>而非命题。</p><p><code>这句断言是真是假？如果我说的是真话，那么“我正在说谎”，这与我说真话矛盾；如果我说的是假话，那么“我正在说谎”为假，即“我没在说谎”，那么我说的就是真话，这与我说的是假话这一前提矛盾。所以我既非说谎也没有说真话，即我们无法判断这一断言的真假。</code></p><p>断言“我正在说谎”并不能指定它的真假，所以它不是命题，这种<u>断言</u>我们称之为<strong>悖论</strong>。</p><p><u><strong>悖论都不是命题</strong>.</u></p><h2 id="1-1-2原子命题与命题联结"><a href="#1-1-2原子命题与命题联结" class="headerlink" title="1.1.2原子命题与命题联结"></a>1.1.2原子命题与命题联结</h2><h3 id="原子命题"><a href="#原子命题" class="headerlink" title="原子命题"></a>原子命题</h3><p>当一个命题已不能分解为<u>更简单的命题</u>时，我们将这个命题称为<strong>原子命题</strong>或<strong>本原命题</strong>。</p><blockquote><p>命题和本原命题通常用大写字母P、Q、R…表示。</p></blockquote><h3 id="命题联结"><a href="#命题联结" class="headerlink" title="命题联结"></a>命题联结</h3><p>命题和原子命题常常可以通过一些<strong>联结词</strong>构成新命题，这种新命题叫<u>复合命题</u>。</p><blockquote><p>例：</p><p>​    P：明天下雪<br>​    Q：明天下雨</p><p>是两个命题，利用联结词“不”、“并且”、“或（者）”等可分别构成新命题：</p><ol><li>“明天不下雪”；</li><li>“明天下雪并且明天下雨”；</li><li>“明天下雪或者明天下雨”等.</li></ol><p>即</p><ol><li>“非P”；</li><li>“P且Q”；</li><li>“P或Q”等.</li></ol></blockquote><p>类比代数运算，我们在<u>命题演算</u>中，也有类似代数运算中的运算术语：</p><div class="table-container"><table><thead><tr><th style="text-align:center">x</th><th style="text-align:center">+</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">运算对象</td><td style="text-align:center">运算符</td><td style="text-align:center">运算对象</td></tr><tr><td style="text-align:center"><code>类</code>⬇<code>比</code></td><td style="text-align:center"><code>类</code>⬇<code>比</code></td><td style="text-align:center"><code>类</code>⬇<code>比</code></td></tr><tr><td style="text-align:center">P</td><td style="text-align:center">联结词</td><td style="text-align:center">Q</td></tr></tbody></table></div><p>联结词就是命题演算中的运算符，叫逻辑运算符或叫逻辑联结词。</p><p>常用联结词如下：</p><script type="math/tex; mode=display">1.否定词\lnot\\2.合取词\land\\3.析取词\lor\\4.蕴含词\to\\5.等值词\leftrightarrow</script><p>很自然地，这令人联想起初高中阶段所学习的（不完备的）集合论：“否定词”即“非”；“合取词”即“交（∩）”；“析取词”即“并（∪）；“蕴含词”则类似于“推出”即“（p是q的）充分/必要条件”；同样的，“等值词”则类似于充要条件。</p><blockquote><p>命题逻辑中，为了符号化复合命题，定义了五个表示联结词的符号，称为逻辑联结词。</p><p>数理逻辑的研究方法的主要特征即：构造各种符号语言来代替自然语言，我们称完全由符号所构成的语言为形式语言。为了达到这个目的，就要求进一步抽象化，即将联结词也符号化。</p></blockquote><h4 id="否定词"><a href="#否定词" class="headerlink" title="否定词"></a>否定词</h4><script type="math/tex; mode=display">\forall命题P，我们称命题“P不真”为P的否定或非P，记作\lnot P.</script><p>即对命题的否定</p><h4 id="合取词"><a href="#合取词" class="headerlink" title="合取词"></a>合取词</h4><script type="math/tex; mode=display">\forall 命题P、Q，我们称命题“P并且Q”为P和Q的合取，记为P\land Q.</script><p>真值表</p><script type="math/tex; mode=display">P……Q……P\land Q\\0……..0......…0.....\\0……..1......…0.....\\1……..0......…0.....\\1……..1......…1.....</script><h4 id="析取词，即，或："><a href="#析取词，即，或：" class="headerlink" title="析取词，即，或："></a>析取词，即，或：</h4><script type="math/tex; mode=display">\forall 命题P、Q，我们称命题“P或Q”为P和Q的析取，记为P\lor Q.</script><p>真值表</p><script type="math/tex; mode=display">P……Q……P\lor Q\\0……..0......…0.....\\0……..1......…1.....\\1……..0......…1.....\\1……..1......…1.....</script><ul><li>生活语言中“或者”是指从联结的几部分中选一，<u>而逻辑联结词“或”都是指联结的几部分中<strong>至少选一</strong>。</u></li><li>在数理逻辑中，或分为<strong>可兼或</strong>与<strong>不可兼或</strong>，通常情况下，我们讨论的都是不可兼或（至少这本教材是）</li></ul><blockquote><ul><li>可兼或：<script type="math/tex; mode=display">P:今晚我看书\\Q:今晚我写字\\P\lor Q:今晚我看书或写字\\P\land Q:今晚我既看书也写字</script>真值表</li></ul><script type="math/tex; mode=display">P……Q……P\lor Q\\1……..1......…1.....</script><ul><li>不可兼或：<script type="math/tex; mode=display">P:我向东走\\Q:我向西走\\P\lor Q:我向东或向西走\\P\land Q:不存在[我不可能既向东走又向西走]\\这种情况我们记作P\oplus Q</script>真值表<script type="math/tex; mode=display">P……Q……P\lor Q\\1…….1..…。不存在</script></li></ul></blockquote><h4 id="蕴含词"><a href="#蕴含词" class="headerlink" title="蕴含词"></a>蕴含词</h4><script type="math/tex; mode=display">\forall命题P、Q，则我们称命题“P蕴含Q”为蕴含式，记作“P\to Q”.</script><p>读作“P蕴含Q”，或“如果P，那么Q”。运算对象P叫做<strong>前提</strong>、<strong>假设</strong>或<strong>前件</strong>，而Q叫做<strong>结论</strong>或<strong>后件</strong>。</p><p><strong>当前件为假时，无论后件（结论）为真或假，蕴含式均为真！</strong></p><blockquote><p>当前件为假时，推出的后件无论是什么奇怪的结论，从逻辑推理的角度去看，<strong>推理</strong>本身都是没有问题的，即，推理本身的过程无错，而前件出错，故蕴含式为真。</p><p><strong>抓住蕴含式与后件是两个东西这一关键点，不难理解蕴含式的真假（在前件为假的情况下）与后件真假无关。</strong></p></blockquote><p>真值表</p><script type="math/tex; mode=display">P……Q……P\to Q\\0……..0......…1.....\\0……..1......…1.....\\1……..0......…0.....\\1……..1......…1.....</script><h5 id="形式蕴含与实质蕴含"><a href="#形式蕴含与实质蕴含" class="headerlink" title="形式蕴含与实质蕴含"></a>形式蕴含与实质蕴含</h5><p>我们称<u>前件与后件之间具有因果或实质关系</u>的蕴含式为<strong>形式蕴含</strong>，<u>前件与后件之间无因果或实质联系</u>的蕴含式为<strong>实质蕴含</strong>。</p><h5 id="逆命题、反命题与逆反命题"><a href="#逆命题、反命题与逆反命题" class="headerlink" title="逆命题、反命题与逆反命题"></a>逆命题、反命题与逆反命题</h5><script type="math/tex; mode=display">给定命题P\to Q，我们把Q\to P，\lnot P\to\lnot Q，\lnot Q\to\lnot P，\\分别称为命题P\to Q的逆命题、反命题和逆反命题。</script><h4 id="当且仅当"><a href="#当且仅当" class="headerlink" title="当且仅当"></a>当且仅当</h4><p>我的理解是：对任意命题P、Q，当命题P时，那么命题Q，且<strong>仅当命题P时，有命题Q</strong>.</p><blockquote><p>那么 非命题P 时，理所当然也应当是 非命题Q .</p></blockquote><p>即</p><script type="math/tex; mode=display">\forall命题P、Q，P\to Q，\lnot P\to\lnot Q</script><h4 id="等值词"><a href="#等值词" class="headerlink" title="等值词"></a>等值词</h4><script type="math/tex; mode=display">\forall命题P、Q，我们称命题“P等值于Q”为等值式，记作P\leftrightarrow Q.</script><p>真值表</p><script type="math/tex; mode=display">P……Q……P\leftrightarrow Q\\0……..0......…1.....\\0……..1......…0.....\\1……..0......…0.....\\1……..1......…1.....</script><h4 id="运算次序"><a href="#运算次序" class="headerlink" title="运算次序"></a>运算次序</h4><ul><li><script type="math/tex; mode=display">运算符结合力的强弱顺序为\lnot、\land、\lor、\to、\leftrightarrow，凡符合这个顺序的，括号均可省去。</script></li><li><script type="math/tex; mode=display">相同的运算符，按从左至右次序计算时，括号可省去。</script></li></ul><h2 id="1-1-3按真值分类的命题"><a href="#1-1-3按真值分类的命题" class="headerlink" title="1.1.3按真值分类的命题"></a>1.1.3按真值分类的命题</h2><h3 id="命题变元与命题常元"><a href="#命题变元与命题常元" class="headerlink" title="命题变元与命题常元"></a>命题变元与命题常元</h3><blockquote><p>通常，如果P代表<u>真值未指定</u>的<u>任意命题</u>，我们就称P为命题变元；</p><p>而，如果P代表一个<u>真值已指定</u>的命题，我们就称P为命题常元。</p></blockquote><p>由于在命题演算中，我们并不关心具体命题的涵义，只关心其真假值。因此，我们可以形式地定义它们：</p><p><strong>以“真”、“假”为其变域的变元，称为命题变元；T和F称为命题常元。</strong></p><h3 id="原子公式与命题公式"><a href="#原子公式与命题公式" class="headerlink" title="原子公式与命题公式"></a>原子公式与命题公式</h3><p>单个命题变元和命题常元称为<strong>原子公式</strong>。</p><p>由以下形成规则生成的公式叫<strong>命题公式</strong>（简称<strong>公式</strong>）：</p><ol><li><p>单个原子公式时命题公式</p></li><li><script type="math/tex; mode=display">如果A和B是命题公式，则(\lnot A)、(A\land B)、(A\lor B)、(A\to B)、(A\leftrightarrow B)是命题公式</script></li><li><p>只有<strong>有限步</strong>地应用规则1.和2.生成的公式，才是命题公式</p></li></ol><p><code>这种定义叫归纳定义，也叫递归定义。由这种定义产生的公式叫合式公式.（据说以后将专门阐述）</code></p><p>命题公式的真假值一般是不确定的。当命题公式中所有的命题变元代以命题时，命题公式就变为命题。<code>在不致产生混乱时，我们把命题公式也叫做命题。</code></p>]]></content>
+      
+      
       <categories>
-        <category>Note</category>
+          
+          <category> Note </category>
+          
       </categories>
-      <tags>
-        <tag>Discrete-Mathematics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[无关童话]]></title>
-    <url>%2F2019%2F09%2F15%2F%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D%2F</url>
-    <content type="text"><![CDATA[终其一生，从未想过她来 终其一世，从未想过她走 你知道，童话最温馨的时刻，在于人们与童话的第一次相遇。 那之后一些人决定重温。 因为他们已经失去了。 ——《女巫与六便士》 一个并不是游戏的游戏。 从游戏的角度来说，它并不合格 但我愿意给它以更多的宽容，因为它打动了我]]></content>
+      
+      
+        <tags>
+            
+            <tag> Discrete-Mathematics </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>无关童话</title>
+      <link href="/2019/09/15/%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D/"/>
+      <url>/2019/09/15/%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D/</url>
+      
+        <content type="html"><![CDATA[<p><em>终其一生，从未想过她来</em></p><p><em>终其一世，从未想过她走</em></p><a id="more"></a><p><strong>你知道，童话最温馨的时刻，在于人们与童话的第一次相遇。</strong></p><p><strong>那之后一些人决定重温。</strong></p><p><strong>因为他们已经失去了。</strong></p><p><strong>——《女巫与六便士》</strong></p><blockquote><p>一个并不是游戏的游戏。</p><p>从游戏的角度来说，它并不合格</p><p>但我愿意给它以更多的宽容，因为它打动了我</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>Note</category>
+          
+          <category> Note </category>
+          
       </categories>
-      <tags>
-        <tag>Read</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[天才基本法]]></title>
-    <url>%2F2019%2F09%2F15%2F%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B%E6%91%98%E5%BD%95%2F</url>
-    <content type="text"><![CDATA[——那每天努力也是一样，增加一点微小的概率，就会在不知不觉中赌注翻倍，成为人生赢家？——一以贯之的努力，不得懈怠的人生。每天的微小积累会决定最终结果，这就是答案 什么漆黑宁静、幽远深邃，想象中关于目光的形容词都不够贴切。林朝夕只觉得，那双眼睛，真是再清醒不过。他知道自己是谁，也永远知道自己在干什么。绝不茫然从不彷徨，这就是清醒。 永远保持清醒真是这世上最难的事 男生脸上既没有嫌恶，也没有笑容，看上去非常平静清醒，看情书和看课本一样认真，气质和涵养都好到极点。 “换做是你，你做的到吗？” 我想，我做不到 “请永远保持谦逊与温柔的心，像你的名字一样，做一个有涵养的人。” ——普通玩家玩21点获胜概率，大概在p=0.495。如果记住牌，赢面会增至p=0.51——然后呢？就增加那么一点点赢面？——你是不是笨蛋？这是赌博，是的，代入公式，只要增加那么一点点赢面，你堵住翻倍的概率马上会变成99.75%。即稳赢不赔。还是属于老林的字迹，她所习惯的调皮语气，整本书的知识她已经熟得不能再熟，但这段话，却让她仿佛感知到什么。……卷面移开的刹那，她看到了枯黄书页上的新旧两行对话。——那每天努力也是一样，增加一点微小的概率，就会在不知不觉中赌注翻倍，成为人生赢家？——一以贯之的努力，不得懈怠的人生。每天的微小积累会决定最终结果，这就是答案这是无比微小的一个瞬间，台灯昏暗，屋外是街市的吵闹声。她仿佛回到了夕阳西下的菜场，她站在那里问裴之：普通人穷极一生，该怎么达到这个概率啊？“我不知道，但应该是可以的，但如果你哪天知道答案，请告诉我。”裴之明明是这么说的。但最后这句话。油墨还非常鲜亮，字迹是那么熟悉。林朝夕忍不住轻轻颤抖，这行字不是老林写的，明明就出自裴之。 ——我们只是在试图了解世界，努力接近真相。 “老林同志，我有个问题。”林朝夕空出另一只手，打开窗栓，“在这漫长而美好的一生里，你是否找到了自己真正想做的事情，并从没有一个瞬间，对自己当初的选择感到遗憾？”“当然。”老林说。 林朝夕听到声音，收了情绪，笑着抬头，也准备抱抱裴之，说一声“好久不见呀”。只是“好”字还哽在喉头，她突然被男生用力揽入怀中。她被压在他肩头，扣在肩头的手很紧。想好的台词在这瞬间都失去效力，最后她听到自己心底的声音响起。“好想你啊。”她忍不住说道。裴之扣在她肩头的手指发紧，湖水轻轻舔舐堤岸，一切静的彻底。 热烘烘的风拂过她的发梢，她忽然发现，她正站在熟悉的十字路口上。 向左是医院，向右是会计事务所，永川大学的校门，就在她前方。一辆大巴车驶过。街道对面，人群密集，她却看到了熟悉的人。灯火迷离，摊贩烧烤的烟火在夜空中飘散。林朝夕有点怔愣，以为是幻觉，但男生目光清冽，带着奔波后的疲惫神色。“文字要简练，情绪要深刻……”老林还在电话那头喋喋不休。红灯转绿。林朝夕想，她幻想过无数次向裴之表白的情形，却没有一次，如同现在这样。月明星稀，夏风和煦，他披着阑珊灯火，向她走来。平静坦然，义无反顾。 不是所有付出都有回报，也不是所有理想都终能达到。 世界上大部分事，都没有太大意义。真理与热爱除外。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Read </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>天才基本法</title>
+      <link href="/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B%E6%91%98%E5%BD%95/"/>
+      <url>/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B%E6%91%98%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p><strong>——那每天努力也是一样，增加一点微小的概率，就会在不知不觉中赌注翻倍，成为人生赢家？<br>——一以贯之的努力，不得懈怠的人生。每天的微小积累会决定最终结果，这就是答案</strong></p><a id="more"></a><ul><li><p>什么漆黑宁静、幽远深邃，想象中关于目光的形容词都不够贴切。林朝夕只觉得，那双眼睛，真是再清醒不过。<br><strong>他知道自己是谁，也永远知道自己在干什么。绝不茫然从不彷徨，这就是清醒。</strong></p><blockquote><p>永远保持清醒真是这世上最难的事</p></blockquote></li></ul><ul><li><p>男生脸上既没有嫌恶，也没有笑容，看上去非常平静清醒，看情书和看课本一样认真，气质和涵养都好到极点。</p><blockquote><p>“换做是你，你做的到吗？”</p><p>我想，我做不到</p><p><strong>“请永远保持谦逊与温柔的心，像你的名字一样，做一个有涵养的人。”</strong></p></blockquote></li></ul><ul><li>——普通玩家玩21点获胜概率，大概在p=0.495。如果记住牌，赢面会增至p=0.51<br>——然后呢？就增加那么一点点赢面？<br>——你是不是笨蛋？这是赌博，是的，代入公式，只要增加那么一点点赢面，你堵住翻倍的概率马上会变成99.75%。即稳赢不赔。<br>还是属于老林的字迹，她所习惯的调皮语气，整本书的知识她已经熟得不能再熟，但这段话，却让她仿佛感知到什么。<br>……<br>卷面移开的刹那，她看到了枯黄书页上的新旧两行对话。<br><strong>——那每天努力也是一样，增加一点微小的概率，就会在不知不觉中赌注翻倍，成为人生赢家？<br>——一以贯之的努力，不得懈怠的人生。每天的微小积累会决定最终结果，这就是答案</strong><br>这是无比微小的一个瞬间，台灯昏暗，屋外是街市的吵闹声。<br>她仿佛回到了夕阳西下的菜场，她站在那里问裴之：普通人穷极一生，该怎么达到这个概率啊？<br>“我不知道，但应该是可以的，但如果你哪天知道答案，请告诉我。”<br>裴之明明是这么说的。<br>但最后这句话。<br>油墨还非常鲜亮，字迹是那么熟悉。<br>林朝夕忍不住轻轻颤抖，这行字不是老林写的，明明就出自裴之。</li></ul><ul><li>——我们只是在试图了解世界，努力接近真相。</li></ul><ul><li>“老林同志，我有个问题。”林朝夕空出另一只手，打开窗栓，<strong>“在这漫长而美好的一生里，你是否找到了自己真正想做的事情，并从没有一个瞬间，对自己当初的选择感到遗憾？”</strong><br>“当然。”老林说。</li></ul><ul><li>林朝夕听到声音，收了情绪，笑着抬头，也准备抱抱裴之，说一声“好久不见呀”。<br>只是“好”字还哽在喉头，她突然被男生用力揽入怀中。<br>她被压在他肩头，扣在肩头的手很紧。想好的台词在这瞬间都失去效力，最后她听到自己心底的声音响起。<br>“好想你啊。”她忍不住说道。<br>裴之扣在她肩头的手指发紧，湖水轻轻舔舐堤岸，一切静的彻底。</li></ul><ul><li><p>热烘烘的风拂过她的发梢，她忽然发现，她正站在熟悉的十字路口上。</p><p>向左是医院，向右是会计事务所，永川大学的校门，就在她前方。<br>一辆大巴车驶过。<br>街道对面，人群密集，她却看到了熟悉的人。<br>灯火迷离，摊贩烧烤的烟火在夜空中飘散。林朝夕有点怔愣，以为是幻觉，但男生目光清冽，带着奔波后的疲惫神色。<br>“文字要简练，情绪要深刻……”老林还在电话那头喋喋不休。<br>红灯转绿。<br>林朝夕想，她幻想过无数次向裴之表白的情形，却没有一次，如同现在这样。<br>月明星稀，夏风和煦，他披着阑珊灯火，向她走来。<br>平静坦然，义无反顾。</p></li></ul><ul><li>不是所有付出都有回报，也不是所有理想都终能达到。</li></ul><ul><li>世界上大部分事，都没有太大意义。<br>真理与热爱除外。</li></ul>]]></content>
+      
+      
       <categories>
-        <category>Note</category>
+          
+          <category> Note </category>
+          
       </categories>
-      <tags>
-        <tag>Read</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[今日份水逆（好吧是我自找的）]]></title>
-    <url>%2F2019%2F09%2F15%2F%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89%2F</url>
-    <content type="text"><![CDATA[输入密码，查看文章 fc22c1a5353a3255fe9c7ab55b6b112252463721f1c7a9f52bc7d9ec0448bf268161ae0744cfd22066a02e940ca5acc90b657c8ac574cc23b807b47a0cea8d6c437655e3f1cecced59e893f61c75c9f392dec8d5cd13f485b1950a17711ee97c9835fead09b066862dad8eeb3a1f55c17d394c633ce83b2b5f61e9201721a208f92a72e62b27844d3f093e17d4b6eaff8a18abc588000ffecb50440ff682523524d2bbcdc39963a6b9c12b3b3d764451893c55714c1281cf831d9cb1352573fb9fa35c4606a8f63995d42546eee8472a18fe3edaf9d34310175206623875bb393d8d4c1acd09ec845c4b40c39e720a0b6f0b49998f9eead88bc3a218f86dda9cfd3a2b2417eb084d81bab18267ab22f226604899ce42788cf85557fe92b196fa614f24b01daca1860b25b0c7d40741e614b47c64a9be59f24fb5fa2d8c8b6a66b7fc0b87cda0de7461d2cc33c899eab2ec28f8257d49fc1d33da3481939aa4f5053585ae58e98589fb69dd3d37f19833b86e485262c939dec14a8f8ef044d992c19419f8ed24819664e1b3cfb2486b8ff5eb8657a0bf3d939b8260011426804b0445da09bd127182c16168fdedac9b16c929e2f2bfeda888c3d0ea6901ccfe6b4b0ca32533085a513398eb5911e6c85f1ea5bbe511a93f6a937b19967789e598d804dfd38c08fe610befd015603ba373273af1749c5ca58c3ac10c59de5396000199f4ebe12b934240e80cbd4b5a4c712d6f6a1790ec53c081c039078d35fbc74d1b51b7a0fa7dca7b52fcf008cdd7237393c068dd7fea4f1497aa70b94ff599f2781fb3838e771546c5945d49d1851cbd1c6253c936bb2dba124a0520f7c56891b6d17408c67aa6a4e41c1dc02338d520a0b1b200843c3d205538f99f139773fd6247cda2390f5babc0ddb9b8f735d523f8648ecfd95a9605493723630a328cda10c91f897fa8fb0487d465601849cdd1733f552670b05108a3f997d9cdc50be2305e8017ba6968b6af89b077577925c615fef464640288ecf940de2394d3b455c3034e75c6c227f93bc2725da61e862207d7b5cf0ebee9cf65d9823ab0d7e9e6790efab3b0d6613d4e75604fdeb7264a2f1f66e422f1b452ed57f3d899d1766873600d3a887f98fb11af95350800994dc6a1084e137abde4c6aaa9859453ea04875334c791c81e97d2cecae2767a8f9a9aae276c7f13fcf188c913fc7ae2b25622415dfbb23864d533c3ebf7cff24b8866b6ffaa2602444ac7213da0ead9cd5e41322b1e6bc5561ccaab28c15680c35e7900b1f84b4b0e98bd991944ffa7958d31353c3483b6f9471be69b50173b49307310955a23c1ff752f5e716a3f7fc992740f79ffc8796fbf07f58f529d3a123269a1c1d16a00371c6c6a39ad8e15577d40a84265412a511a6c63635c7e9620c2a73e3d75fe548c7bf67cf6b14bfc91789d2992b311ae6ccca14f05d940867ecbeafb59e8dfe9a173fcfd75c197cb2a5af81c0c80207ec3af314ccd41555f048908ee3a33c13c0035cdad34da224e1ac11ea34786b31b3433077ecc8e571fb09d010de948b3b8c1ac128539827b7cce4ff0e906505a25887dc951cad3f9041b43b752cdc468450d70bfe9079ca0b5626d3e40833996423f6da21ddf6b0cac8641c61ec5cca581da7cae125086db10a7ba53caf3eb6d54dae0a41260214e10744a55115f863b2126fa3fc065fb51461af0f501132c00440926cdf593f0589f9333ed73b7bdbe00931f1573f4907942a1c70357f73eaa3c3c6fb9075e868fe6592ad2cd95c6298665a495b40e8090bd4c4a487a75613de4fce122b7cc597534f585cde49a6550f45ab4425ed9643bb00653bcbd0481bf24fe29c9e69d37dcd87c7bc9cfcd23517576fe1057d038e00536ef831e854f78c956992bc0f0ddea204b490283ba74c020473370f6afb74e12112d63805c4dd2972400e12b11a48ddb38708f9d69ce1776ab1d69cf3e537e8eb71abd36dc77d4f8d0b9e5c2f46b089e11c1631a14f0c11b1bcb9c0f35b5a5e42235e1327a75857775ebd871ea6ff31763]]></content>
+      
+      
+        <tags>
+            
+            <tag> Read </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>今日份水逆（好吧是我自找的）</title>
+      <link href="/2019/09/15/%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89/"/>
+      <url>/2019/09/15/%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="输入密码，查看文章" />    <label for="hbePass">输入密码，查看文章</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="53062e3260548347f06d7911adb292d823333ff9700efea16bae769427a827ee">fc22c1a5353a3255fe9c7ab55b6b112252463721f1c7a9f52bc7d9ec0448bf268161ae0744cfd22066a02e940ca5acc90b657c8ac574cc23b807b47a0cea8d6c437655e3f1cecced59e893f61c75c9f392dec8d5cd13f485b1950a17711ee97c9835fead09b066862dad8eeb3a1f55c17d394c633ce83b2b5f61e9201721a208f92a72e62b27844d3f093e17d4b6eaff8a18abc588000ffecb50440ff682523524d2bbcdc39963a6b9c12b3b3d764451893c55714c1281cf831d9cb1352573fb9fa35c4606a8f63995d42546eee8472a18fe3edaf9d34310175206623875bb393d8d4c1acd09ec845c4b40c39e720a0b6f0b49998f9eead88bc3a218f86dda9cfd3a2b2417eb084d81bab18267ab22f226604899ce42788cf85557fe92b196fa614f24b01daca1860b25b0c7d40741e614b47c64a9be59f24fb5fa2d8c8b6a66b7fc0b87cda0de7461d2cc33c899eab2ec28f8257d49fc1d33da3481939aa4f5053585ae58e98589fb69dd3d37f19833b86e485262c939dec14a8f8ef044d992c19419f8ed24819664e1b3cfb2486b8ff5eb8657a0bf3d939b8260011426804b0445da09bd127182c16168fdedac9b16c929e2f2bfeda888c3d0ea6901ccfe6b4b0ca32533085a513398eb5911e6c85f1ea5bbe511a93f6a937b19967789e598d804dfd38c08fe610befd015603ba373273af1749c5ca58c3ac10c59de5396000199f4ebe12b934240e80cbd4b5a4c712d6f6a1790ec53c081c039078d35fbc74d1b51b7a0fa7dca7b52fcf008cdd7237393c068dd7fea4f1497aa70b94ff599f2781fb3838e771546c5945d49d1851cbd1c6253c936bb2dba124a0520f7c56891b6d17408c67aa6a4e41c1dc02338d520a0b1b200843c3d205538f99f139773fd6247cda2390f5babc0ddb9b8f735d523f8648ecfd95a9605493723630a328cda10c91f897fa8fb0487d465601849cdd1733f552670b05108a3f997d9cdc50be2305e8017ba6968b6af89b077577925c615fef464640288ecf940de2394d3b455c3034e75c6c227f93bc2725da61e862207d7b5cf0ebee9cf65d9823ab0d7e9e6790efab3b0d6613d4e75604fdeb7264a2f1f66e422f1b452ed57f3d899d1766873600d3a887f98fb11af95350800994dc6a1084e137abde4c6aaa9859453ea04875334c791c81e97d2cecae2767a8f9a9aae276c7f13fcf188c913fc7ae2b25622415dfbb23864d533c3ebf7cff24b8866b6ffaa2602444ac7213da0ead9cd5e41322b1e6bc5561ccaab28c15680c35e7900b1f84b4b0e98bd991944ffa7958d31353c3483b6f9471be69b50173b49307310955a23c1ff752f5e716a3f7fc992740f79ffc8796fbf07f58f529d3a123269a1c1d16a00371c6c6a39ad8e15577d40a84265412a511a6c63635c7e9620c2a73e3d75fe548c7bf67cf6b14bfc91789d2992b311ae6ccca14f05d940867ecbeafb59e8dfe9a173fcfd75c197cb2a5af81c0c80207ec3af314ccd41555f048908ee3a33c13c0035cdad34da224e1ac11ea34786b31b3433077ecc8e571fb09d010de948b3b8c1ac128539827b7cce4ff0e906505a25887dc951cad3f9041b43b752cdc468450d70bfe9079ca0b5626d3e40833996423f6da21ddf6b0cac8641c61ec5cca581da7cae125086db10a7ba53caf3eb6d54dae0a41260214e10744a55115f863b2126fa3fc065fb51461af0f501132c00440926cdf593f0589f9333ed73b7bdbe00931f1573f4907942a1c70357f73eaa3c3c6fb9075e868fe6592ad2cd95c6298665a495b40e8090bd4c4a487a75613de4fce122b7cc597534f585cde49a6550f45ab4425ed9643bb00653bcbd0481bf24fe29c9e69d37dcd87c7bc9cfcd23517576fe1057d038e00536ef831e854f78c956992bc0f0ddea204b490283ba74c020473370f6afb74e12112d63805c4dd2972400e12b11a48ddb38708f9d69ce1776ab1d69cf3e537e8eb71abd36dc77d4f8d0b9e5c2f46b089e11c1631a14f0c11b1bcb9c0f35b5a5e42235e1327a75857775ebd871ea6ff31763</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[MATLAB指令总结]]></title>
-    <url>%2F2019%2F09%2F10%2FMATLAB%E6%8C%87%E4%BB%A4%E6%80%BB%E7%BB%93%2F</url>
-    <content type="text"><![CDATA[​ MATLAB常用指令1.1用path命令设置搜索路径使用path命令可以把用户文件夹临时纳入搜索路径。 例如，将用户文件夹 e:\matlab\work 加到搜索路径下，可在命令行窗口输入如下命令： 1&gt;&gt; path(path,'e:\matlab\work') 1.2命令行相关1.3帮助功能 帮助命令 搜索方式 help＋[函数名] 完全匹配 lookfor＋[文件名（M）] 对M文件的第一行进行关键字检索 lookfor -all＋[文件名（M）] 对M文件进行全文（关键字）搜索 [命令的前几个字母]＋Tab 模糊查询（得到所有以这几个字母开头的命令）]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MATLAB指令总结</title>
+      <link href="/2019/09/10/MATLAB%E6%8C%87%E4%BB%A4%E6%80%BB%E7%BB%93/"/>
+      <url>/2019/09/10/MATLAB%E6%8C%87%E4%BB%A4%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<p>​                                     </p><a id="more"></a><h3 id="MATLAB常用指令"><a href="#MATLAB常用指令" class="headerlink" title="MATLAB常用指令"></a>MATLAB常用指令</h3><h4 id="1-1用path命令设置搜索路径"><a href="#1-1用path命令设置搜索路径" class="headerlink" title="1.1用path命令设置搜索路径"></a>1.1用path命令设置搜索路径</h4><p>使用path命令可以把用户文件夹临时纳入搜索路径。</p><p>例如，将用户文件夹 e:\matlab\work 加到搜索路径下，可在命令行窗口输入如下命令：</p><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; path(path,<span class="string">'e:\matlab\work'</span>)</span><br></pre></td></tr></table></figure><h4 id="1-2命令行相关"><a href="#1-2命令行相关" class="headerlink" title="1.2命令行相关"></a>1.2命令行相关</h4><h4 id="1-3帮助功能"><a href="#1-3帮助功能" class="headerlink" title="1.3帮助功能"></a>1.3帮助功能</h4><div class="table-container"><table><thead><tr><th style="text-align:center">帮助命令</th><th style="text-align:center">搜索方式</th></tr></thead><tbody><tr><td style="text-align:center">help＋[函数名]</td><td style="text-align:center">完全匹配</td></tr><tr><td style="text-align:center">lookfor＋[文件名（M）]</td><td style="text-align:center">对M文件的第一行进行关键字检索</td></tr><tr><td style="text-align:center">lookfor -all＋[文件名（M）]</td><td style="text-align:center">对M文件进行全文（关键字）搜索</td></tr><tr><td style="text-align:center">[命令的前几个字母]＋Tab</td><td style="text-align:center">模糊查询（得到所有以这几个字母开头的命令）</td></tr></tbody></table></div>]]></content>
+      
+      
       <categories>
-        <category>Note</category>
+          
+          <category> Note </category>
+          
       </categories>
-      <tags>
-        <tag>MATLAB</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[希望会是全新的开始吧]]></title>
-    <url>%2F2019%2F09%2F07%2F%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7%2F</url>
-    <content type="text"><![CDATA[输入密码，查看文章 ecb46d576c14628f5e73b85f2c79e3ed1dd60f5a04bdf1a5123da05395b19799d6dac018282e0b49292788ab4889df6446520bfb4ed107b271ca5506bba412f204f267e03a978469a689a7a45bdb0d2d3eab509f9273f05f91faac197afb75731fdd35394781b67dd5f5ca7d2c4d87b0818ee5fa6022253cfa4965b16e492d7944657bcc9440c5bd0b6677c0444031996f0b8d17665f02f08c29c7398b492162d040b2052ffc4cf4bf773e9247a67e12489099c88de60997e3dcdd09b1a57d938093e686ee7307cbcd71d2591193fce7e3c2ffd7c1f6f76fd26134dba26d9b8b26200fe58c943aeb45b5e538a139ab0de9e2e2ece51117a4be52676bc4d3aac8283bb3fa1f1e2dc409f9dc132df9914e52c25e1069cb91508099aa62750d152b04ddd069e1ce9e7252e02a2bba5782bc3dcc3d81c847090f094839dec4cd93ca13bb6bfcf9129b9a044f14179577bffafe5e5ad97a66e74724b09590ed3d3068523556afa4eb8be8893941e0887953c6828a45735ba916c98f4e06411552bb72ceee4ac854dca19b602d4e85a26612aa3078e3d4b54ea718b282a60a4aa81d25bab1e75d18d18488d45ffef96b7dac89bafaa42f4c15966544d9b4fcec48029a]]></content>
+      
+      
+        <tags>
+            
+            <tag> MATLAB </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>希望会是全新的开始吧</title>
+      <link href="/2019/09/07/%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7/"/>
+      <url>/2019/09/07/%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7/</url>
+      
+        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="输入密码，查看文章" />    <label for="hbePass">输入密码，查看文章</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="95bfe251ad09ad0b57bf9d1c6a102a5a5121e77385d0bc86c7b087b083b171e5">6eb10b2bde0576dd3a4075bb6f3aec5dfeb3c5919366bbfab3b68fd361471ada0292f1cc2270c2699ba6f1d259f9eaac2597067b39244098ebde7c62b6d67bad2c4951d59f19000e6f6b4493e4ed35a07d8bb27b488e939b5a7dc0d514d1cc1cf7fa68b49a7c2e4775ea51b14de3f48bc8387b268e82aa6cc9c4c9713797d62e217f7ec065a1098642bc1c5053d7284eaaab414fb501ab081133668c79694bf4ee6edbfb6aa01d1a3f91486221cffddfb6d579cacb93bb614354117c97599d288ed43cc4edf40cc73c896220db4baebf8954542be57368309fa9db5b4aac3b86f40c9c248e78c9b86f76fa324d5e9511c0bd80bcb2a62ced5d266655a20111cd4a6d9004cf6a31972f70f16bcd1372d93573e988d1ed4e736c42aae1e8aaefe2e47a3d103b2cb94f48441e41159441f799cafd071189f7fa17d7b34a43faf83ccd7c7568069533e85baf5b0430cd439e5c269c0248f394e866996e0c22382e1f8142f74c62d0d1fb55dbeac4a04d13ea95dc9b384a9ea6e30fc714ab8df72000</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[那些优秀的人]]></title>
-    <url>%2F2019%2F08%2F18%2F%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E4%BA%BA%2F</url>
-    <content type="text"><![CDATA[输入密码，查看文章 0d4b8def4350ac0db4997f2a550fc734cada69306148d3cb588ca1de781c478aaf9915a1a62b5c2f96155977ed0695c220dcbe7fbcf71fc61a39a5cfedeeaeac94387a2411d78886002986def788d293f0ce75e4fee6a3a9295ba244be1c19d39cb6b9a9ad0919085fec0e68eef7ad1759e23951a9f21d780869faa5f526d4f9dcda0638497b8def0e1c72100a48dd6070b911cdf0bbb4fdea676278bca17cf392cb1d075fd54a00bbe3f2e95adaac4c7b17a84ba32a62705b0ffea37d6d5497ab261fa571d42b2eca981fdcc473ab5325145080b8413a0112faf5e9c592935fa42420afe33ff1007082629c29ae073752dc2c2388efdb80f15d9e4f1de1280629f72c78727eb88272aab47fca6305240fed6ba1140f76680501ea408c8135f0d3fff3c898b2fbea9bf68e4706e6641d673b0cde1782e7fa1075cdf21036fd34b05d0a72eebfdd74adc8e23750de9889]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>那些优秀的人</title>
+      <link href="/2019/08/18/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E4%BA%BA/"/>
+      <url>/2019/08/18/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E4%BA%BA/</url>
+      
+        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="输入密码，查看文章" />    <label for="hbePass">输入密码，查看文章</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="3cef57000e7934fde0003b604610563211cf93fedf88105c886320ce401674d0">a6fb3254bc3a9b5af16e5fdf46dc56f0deeb048cac6cac118859193671d638688e0590836a10bfd23e2c68f7237f181586ccbb4a6d2af19e588a277a74041f1f37630cfbd8f05910d3032c55be3d805f0950dda107e6d87629a832b6e36d1f0b226884f2c6c1b951bb80e597ef3505f054317267d6adb06776c7d3f32d874783b474b0d4fe41f0b04ba5296b4313128b7b4d2a1d6755f492583345bd4de6aafe355b53ee37b147a2fa11094574b3a630f28d5862a6901fea199935962692cd3c3e73413575331ce6bb995dbd71f6c6a8b27e6be100ac745e1f26dca7c9f7c8ba65c455b69342c07e13ff7c09344b82423ae66113d85f71eed771dc425dd7445a</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[突然感觉有点累]]></title>
-    <url>%2F2019%2F08%2F13%2F%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E7%B4%AF%2F</url>
-    <content type="text"><![CDATA[输入密码，查看文章 d9059b9936054dbbe87e5f29788cb6cd804ff54716a9756fc4078825446c940f084553bce0b93e9d896b9604ef42d7369265f92e27733d3147dae3ca28a51f80f51c90d1fb153831e626798560ea7b2261db2ba0805ddb65d7cec4e7e9f185aecc1908f7f99a00c1239605aaee8f5dfb747ae647ca8555aadf22f74cf43b6d22edf850c4b7ce9bcdf50b4f3b50691b729f016f88971cf4e8570332ebf9ec4020e8dfbb09adbe4f4e894b5a02574220d2d7c013b264393bcb3123e9580e9df7a0c33773a7f4e1afdeef0ef94ebb7e65d3b3eaee454720127b6f95aab984e23402a13b86146ccc1d558bb613ceecade3588c008b4ea2d4e853771236c9c4ce2d5895ee1a5a82e7502c99641e819455003505d7f1f750cddbb64e2f736bae22363b6e0e1928c382595b735ca36b9dd04c8204cdbd3f4dbdbbb49d080154def8c8e7e273b621b3d75aa9fe111d650f2aa7e68add7cd0a69dc712f467bc00380e936691281a0ce0e57514028da44a23f0c9bbb6e112ec9b10c293d0c3246b460a9c9134d4e48c37ccf48ff62992c32ea58cf8fd4c091e5f32f229c840f6fb58d2eb48f36d4299c5af702ced93eea6c05b785f16d4e459ee5facc24c635c5ea9102876]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>突然感觉有点累</title>
+      <link href="/2019/08/13/%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E7%B4%AF/"/>
+      <url>/2019/08/13/%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E7%B4%AF/</url>
+      
+        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="输入密码，查看文章" />    <label for="hbePass">输入密码，查看文章</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="9fa669d8adff39768d1b4ef5f80156a4f16ec16f00450f15e458683a8435b197">4e54e80e08fb8319b1d8fa9b38b19c974f7b27a5fff591ebf6c02f0cec7bdffaf084b949992cb5a8107e8a9211af523b745efb1ac718f1020c40a97181c5a99be697fe35c205e249a640f999c51e8b2af2ec5ca40540d501cd9ab8fe79715972aa4b5eab8c31c398766ed30816459ab996425fdc8f75b6a8378fddac9da63ae217af97f2899dfceb65ad4b4abbb87dc222f280cdc188cd7f9dce930a65e7dc9c77d6c7f9dd448f150de2eacd69ebedbefe1bf7c5a84bd6e1c6f3b122a233baef5ce7539ab9da59fae77285ce579db7a38657197d57def7e091362204efbcaf64b06a0faef375c8a54c2c9096a1e0e04dfcad4c9ffa88e913780412fde7235d53bc6f192840bd4da5f5cf81e63dbd593fc2ef2f97765aab850dbd2f966b1f70e6247fad745773ae7c2f97278cc427da5c23486f1082d4cb5e4cf4e6c3c121dda2a952081a46b25f5de95d3c3dadcde5808a1535bc91a09aee8f0d2c476ab72847</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[总是在懒惰与发奋之间反复摇摆]]></title>
-    <url>%2F2019%2F08%2F06%2F%E6%80%BB%E6%98%AF%E5%9C%A8%E6%87%92%E6%83%B0%E4%B8%8E%E5%8F%91%E5%A5%8B%E4%B9%8B%E9%97%B4%E5%8F%8D%E5%A4%8D%E6%91%87%E6%91%86%2F</url>
-    <content type="text"><![CDATA[输入密码，查看文章 a9fd6571073780aa181f03d25dbd222b028df5473d9378c707c48d65c0a398d77e51cc891c3a474ba76953b790636934593496bfc50d23f64dc496fcd2e2dc2f9935dde559dbfcbbd6b0e036addc58245ed74953efcd90f954c780b361da40daa404da2668ff6982a1fca9f40d002f61993a41d6821f64faefcf532583eb715d0bf47743a58587c9474ee97ea64fdaa439d72c4e0192f2cf2ed793539f7b7657272014c97dd99fd6eec68637fe90e2b3d00e26d246643c491bb3067313b1b608c2bb8bb8f55fb05b05f17faea5febbef921fe49e0f0b59f27e1876f57e9c26a741ffff142b83a30f58d400961ebf095034c4e23af847ba1754a81c10d8e15f9f0cf2a73dda6b2fc7def5765a995b93e9dd20f2854aaa1fd26397f17d17c73e948d54f6ff2eaca36d9f5dbbf028e91904f751c0426b402cfb2ea6dff9cfac8ed8db1b2c19d0774fd131dc0f87cee627bcdb869b782a41e08a9b1add998132f32ecbd192ec8b4ea152d9e0454f81ee8fb3092b6f389e492dbe6272fc85666521979de4aeec5abc0ca84042ad3c7ee468b31a12ca84365db59620887eabb9e602f972b292f92dbd9cdaf75662750fe683a5d22287f70d351a6d344b4b70a5ff897b8155d852f8b839ff5bcc06d0b2fa07f8d0505e0cea04b685a132170a0fa2876c0862b623427d62ed388e547ce1d3642b709ee6d717059dd2acfd9605687ef0eba32021e33bf7f7617b7f7eb7254445e28f06cfc299a97dc174d7a09433332b5c1c081e6c08f4174a175da0a302c2f44616d88dd14b569c6b2e2600de13250fa1ae42950aa579638165b642cd4ea58f8ed80cc93ec3b05ffa035e2a2e0b6fbc821c38cbb191c1e5b20fbb3dc89715286c6cad65db0bbcffde71069572c2b7b91f1fcb226f8caf7f8e137a948a78ca79a32f4d5d0f9829e30f496e6bf01b5df4b34368c78e0dc802ea5dd712ba9484a935657bb4923310c93bc9bfc4fedd5a133613d8efbf24260643f29d77c9c152c5ac6542723c83599fad9bd8e393e85e2504f6b07bdb712e82ae9e3a4421da73c101ab7c332e18e86955dec9763ba606cf44681366fbd5e0dfe3364823872b54a892e1bd3856b325f6f57087d448ca58458c7501d3b70110d51170816f148eef7d187063aba5fea4f2c0d5c59f5585b7807f75d996312965efa556cdf836fcceb8a37407b42db000ffb00ca75662065d72f86b0bd4ad16de273b6de8e6bec6e15a0224bfbeec991235640062a12735d3d90015666e39029d592b10b12298a550f59de6a04bdc7da9769c6c5c5cf5b8d144a354e74412c38cd505f6abd0cd179548088f12937ff7ebedf203bc2da514485de1227beb31016cbbcddaee54054e50790f5195ad4f0b4daf1d020ab3e674ae9fac6f9a874c3612a368bbd337f0b89ac2e08a5e059c076f8402caa11db5115911de424720cb7e69afd024ef4ae4135d661f36cd1ed22a14bc35dd29f4e667f3504557ff8e9b64ed98638db732d54fa349e6ec2c5969afc5128e2307211e2e47305b262198cbd106a525d111b123bddb137972d6dc98bf9d5eaea5f7ec475ecb4fa699f40699f1d078d32cdaf46f07d34d073df1bcbea9bcd3556c2e72f000d6dd7dac4e27371789a647579468b838f8861857f5b1acae67d7602e7c4fde2ee42a274f9c69629e4d9fb1afab5e82a27369beca4afc923def4f2704768ce68fa9e8b50a45559916c6387efdb338275c9dbc4f159ec69522a885e286ed3822b33b09a212fa96c4bbf3de083245789a5b710d728507d2c247ffdc34613d7f69fb468e2b482cba7a543789e1db20e106b2638eefc0c123dff0f3d30eb940b3f1cde9112da6d2a5fed655bec504f1d0281474d3b1e269fcda86a9418678a0d272a0ebcfac8b222b0466dec7d94428607b894095a4d73ab1687a25bae4e33b0429be44c31de8fbd96b1f22010c53a59bb70232ccdf7a9418c863fe59722d4422d416f55203410b58a87e2ba68d3b90a64ff2cf67705f19ec19633c43d6890c02b9ecd68752c8fae3f2471da30191e5094e3b077971126b3afb9a80203713d0b3e2115499ecb9d8fe547ace38195c63bb98b91424a64b144a354286d7a2d7e2e4c202a9e0883a63e8ad0bf754d21130164775ae134e65e7c7e49c6ff4b1f215dfeaa01f8f540d62b4f3df1a7e65c467cf90ff0077a3b51ac3d4816eeebd6b3298f3a78403d12eb09af90d8aeda2004ef491556c65233de994a92a320460090e7e29262616138ca1322e7123a5548ab45d29c073cb1bf9b13b94d8ffc30463fa17da9362963e2d524d0220595976ea5c43687dee312e7300ad481b2ffde76bdf868e61fdab066e45b2e74c334d85c413340160b700443b17ff4deb310265c8db2e7ba53d097bb8425ba641d9c5b00ccac261b848861c641139e6d19f25b21da67c68131933b334bf171f1e0bf6564512ea9f6ada5e5257b62083cd164e7bc4d25f962f28563d91aad26edf9891efd79e4e7bb8af3ae936d1bed6ac9ca22343df60c79ab3c5483887d0ed8fcb7ba1d145e2fe295318bcb63b143399f432c98818d6523bdf6858f9ed8bb605a5a95c7b4ae7a52d6859603c8d03c5a9c3422fad4f2897c5e35e31b2e2c1132421a77629ad04771af414397b5ec361038f2913b030ed94d10ded1c5e58c3151721ca9f37421b42bd5214618f13cf3b7d59cbccb00f91ed55c287e91a9721e239a2f54f3f8fb2fb120d6b4b3fef07276510e7ec30672763d3aca0f0dcaf54432a4843126fed0d471121a6fdd95879a4af686a5046019d39b54251491bf85b96109f88adc5261632ea859f1415070990dacce941592b66071d39a724b6db2f1067a59f1add6eab4505a3b0036c5b151c54d02c3bfc8c2ee52a3ebd105506638fcccb582d4eb7ca86efa019b659713b1f5e5cfafe5eae7333ee755c60122c2bf452bbb038c7ea971ec040eac2325f68bdeec1fe9dc0a3aaa03368e63ae884542aa86df3c6c4f8dd89ffd6eb3386605e76b17f625ba1ccd4b6bf410575996ce68b49d92b50ad71ae2c35ad5bbd12003977dc65c05fbc989cf46d0bb7f955819115eb7ee27741e0bb21e0031c4bac94619ce08013256dc17685434ebe58a5f07a748d8639b8868536fdf5d38c68f16cae17cc099cd955b4557c1d04811035d84697a540c6852f5cc57876b6f2e5c663e723dd8f614699f6a640c4b36f66c3413c5d3239ef36e2f3cd3bb77ec3ada5479614fd2b6993302db60be1004d0a6250f1be2d09712a733ff5edeee6ec97e6c80ce93f8e9dfaf3dfc0baf23ae11e313dc17af431ef95f13ae1a5664b4b29c3ed9d72c686fe9dc09b925e7ec8e2aa98cc00f04b5e2d463ab26971244f76b1f3717ebfb8082ba15407e68f87d03699552d4ef38dc25f8ee30d07a52394f880dffb28e609b888769a06d8130056359fcf655daae88294d062f157f0bd46f2862c17d6f51a86899be3885351d23569007567bab4cf822ca770967a440c7ceee4f97acbe8fb784a1cc1d487ba1940a6493b81fd8dca88e4abb1f41294d45c7a711de08995cc323c9d23045b8d0624c99d35de62c87e6b32f61d24549ff2d984b363800c7822c379f7b71c5a787316c6f9fa83fa6b1952e3aa338955d2407dbf4ce94d78b2239cc26cbf0189431607d849c729e07109b09f23189d81a439c2ae3db78b90866d5a9f44ff8d139f45d0047e5cb20341984a4fa33b930937fd626c60d7a8df9af05ff7cd38fdba7093700714a7a9ebd3019489da03720da9bdab16a23f4aeef4d6250cd0f7252098e1dc2b592d6f117398d4f52052b69ed82c99484fead0fbbd1051d91fbfe676f8341a42fef120f4b651ce427f7724538742fb2498dc6ff4bf3f3e507d0b385a6a4ef364d50b6ec1ea5df7f898aac034cfa357229287bfee9202a3a0254d063ba26176bf556334dc63d4682959a853215b5393139e89be585dc03d56f63ae5b18c10f8eaa80173362cfc464c3fa32091fc21ebc8620c7f5352af9d5881b387b5f861d02dffc6eb3987dcdd8c159887c8092a5b5901c6f627fe936ef619340a1297acc13a787d68303d8c9fb159c78fa52ec783ce31534ea92456c8667785f163b1ae30329dbaf86806ad9453ff330f067c09f4b8ae1750fc6eb505e973a7224ce4f1d3d6f238a761fbf6cf35fc2cebffba3ccd3c123a65b7272911e5b671c69b459fce6aea7c5a7cb33441e8eaef7267fa473685bbe90b55d3e7620b485ebb794ea6ef9ae430f7d8a42cbba72a30a1eeb23ff00db69682668665d01f9b2b918996eceac44666d6a288b4182dbd11a5088f9cd59e0d5f93e8f811c98370f35f2aae54eeed8d4250dcc703deca13a53bc2e4646d43e54a4435bb0f2f3502dcadc5fe5357dd6dc164f45c0d589795cbcc9545aadc25f72b07e3e6e2f47108c0d90cf339c58c88fb0c15b42fea0f230b155e5c3e7b6166b5e0a97c7d00887361b0dda227166cfcd37bbd1f0b6cfed0d296293eebc22dea68ee6945fe65bc5294e0a510bd8aba6c1da0489d14dec8998775379efc9345988bfcc842fee88b20bc704fb8bb4a54124fc27d5b2d1b6584a526eaba039cfed512e9c7b9a76b4778b8dcd2bd139a01012b96e207d74f4866e4b3fab39db69c760b2b0cb87505e88e086815edc20ce4fda594ed44b9beaa21e642e726ce8d324f7d0a2d66d8d1901afa39dfb15f07eeb10592fb7d851c523f5af05b50c673d10fbf8bb5026276e7d91934f4e74c9314c9f50026d009843b2683e3f87d0e6945b9b96e600fa985937299d5efab9b5c8a5570f32187df36750d54ab7e3279c53da26edb6d76536da530d6a0a507adfde8bc2287f39e0fffa394a136ba9476a67ac229ca380ec17248224c1753b84bfeed58d51d5bc8c61b9fe4858079e42663d5ea35fd52c1f3928c7a0df4cfd7db09c2cda59620fdf858e6833bb976b933dc2a570c00f0dc8bd17a1a309fd9c2a2db2c510c556acd5a43e414f3058d1a24f8f0775eb1717801b57adcf75317773aed029441a1b8df81f4d4e87b9127f708c93f88a4e22d3db230acb6c04612afc9d34f9e33bc74a7a22d63e21b199d36b93d18c5963ac2b66eb1b41aef662bdf1518b3dcefc4061d3ff1a5047daa6376243e8123e3f8b8d34dabbc128d0fa9a219e7630a0446df5791b88a9e27966826f95b61b68fd4db0b53fe6df424b8ca03d7df467afb4bdb15728ea72ccb1e0d8704e4b02e62546b9690206f831972872164adbca58b5b46f463600a478a8bc8cf37c78718dcab11eacb41146e925a106fb8cc6ce0fdc35c9497b40719eea23d0f69f23c6c9c71f4bf6d6bce923c41abf7548e915efc18faa6ac812fde19d3fef5196f9ed529ba624f0134740da4560f8967d4b4e32a55f3306661717edf35d16aa6ee150daaa19566ed588e7bc9341d404a39493444f6b7225eb562956b0e0ed578f4d324cf55a36c2c8b3f8c37d2723dc66ae4c672510e9affe4dc2173ab96f325985562fea949e91839c4cb1df2fb75c2cf5277def1039c2c7e49e12817001aee9f478eabca4045e500cf3889ac99adfb83980c5b7a3e041b74699c2d73170453f063ad721b2116eb54c87f2b22e0ad1a54342d2348be804f492a035098680aba084a54cab362d12afc5641f8f2dc8ac9794656ecdf74d14859e1e9bc00a518940cf806b863fd7caf9cdf89a6529b99100e05300bd4a5f3a06484e9fd5e92629e563d8bda9179a7405c62ea229b57aafc273eb6ae466d84143e7259b22b94844a3dc0c0e210acda7d77e64bd967a6a53366975d385474758120a3feb866ba4ecf1b91efb963b7a93c8f47ce9619549941610ea43322b4a3f120ea56cc3b98d17eb8ef66b0bab68c0d0c84a4e494d66a92b6a34397d31c6febd5ca3adfdc9edad5cd637044a1eeb3dc0333188005177d936747421c05628066dc76ee44db926843892824ede95c4f5fc6fabcb237d48cd31d6ce7197dde1160b0cf338afb42262ba7ec91ac0d8bffd3f72875ebf5f135130f47bbaccab8454b5be2a72e9fe4b3910b288f1448aa0cae7f23fa37159c105cebfd4adc326fda9bdce8b5482442014083a43a685abc2185cfc0d41e8e042a5421c50fa18d82ea26fd9f2477d76c8c55395650b0a247d8c84f702fad0d1e88d634b0a6c2d45ce78fda416acd53baac2fc90f2db222cec51febc3aa533d8a285d2e02458a3597cb281c0acabca7d3b8204b568ac609a24c294a358262abd217d07221c67c8ffb8ba07725b7632d73ab2dd89d8dff6ab27a8430d5c54b12152d59065cfb82940e9c3dbcb6acb3873c2cd91b2723b3619d1642b307161867e5a17adad13008bb1d2c71ae98069d94c729f540656345a0b4451c2f2ca11e12d36b616659738a4d75181480afa952cc5f90933967876c42d47d16f26b6f63d35b8eebfaa70b4052ba882604c5fd333ef624c6540509be0e67742ea7ea9912a7e7c55e0a46e24a2cb65465838a3f30a329ff57112384331c2b13f3b7ad6a6bece08312a3b85683c03a89087473b20fb21c9d4978390ff6c80d2bf60945902dc7d7cd8cd6efcbf6a62901d4d943ef8c006dd60dc4c06a4974b9888d70210bfb169b31cd39448c4630163d9f8bc7141ff1952b4dd1a170695bc7c91e24d80acbcbea7ecd767bbe5b539d8594661d84ea608bd83e32c02f589466a397730df551bba64b4625660a70464d6403a6336fed26518a133180c4daaa6d7fa022d6a724a758473167ee0885e449ee2ff6cea380cca77d0164fe8b68f42330c7a51c3851b0b9197a7985b9b710179fc0070dc223bc86ccb6ec6619b362e77f85cf89ef9ad1f1906de422beebf7addc37952d6a101fea4208390e5e627fe3c9296142557df603e3f6c59019eaa2086735ae31fcc6a9445cd5ae3366a122ba433eab268f7e4381f6ec41c7646670eda9105d31c74227f0c758d2213825b5ffaabc3543c2d438664cb8a391a69773181981d74fb5c3fe0c809ec8e1a04035f6c454dac7bcc5b03e6c936426322545884098c08bd0f2e09005649805f3310d6b877faddbb41779ea725dbc7a9e1cf83494313d1bfe088bd81996f62c1257b7dac9176298a16ed11e7e6eb232f271b5e87ca104e8e1f10f50b68388a2b5763a1c2a21abe7e3f979a62e1a8e2a23a327c9f16e54db8713e9c3fa804f3e440eb5a80596e8c566233283cd60e9e5d852365d06bc32e7dc9181f36f2f5ae116b5ef2e3fdcf9d48e292a121d4d9dd380a347043cde2d5e8e58c3ca13bf3ee20396cc0c372b2b08e56eaf98a0048fa5d885abbb1b40120d9cea0ff08c3fbf51241a7ea2bb342dabd48e524ec8e20524b099ac569a06ce24c79a225f99001eec8e6866a59ead0f035b327f3b4781b56002cfc5bc08e7e8e878e1ba5e8f3a328ab96cde5b22031d8ae95626bd6534d561642e187fa17222208ca4dcd9ead62e407307b5e1f4c40d12f5a0a25f35a42206db950fc8bda861a0a679ba63748247f7dbaada0174b9ef68c30f6d9d7214c741c2851d799ae8cf6a882f4f681cd1ecf29086cc7f16ba9f3e97b90f08404b9bd4c14c9eaefeae04b42aec126d9be2ce30f836c1f565c36c1a05b7f2035f4c21980822b622c5b89054e1e0e63704b55679881d568c94b3db7c6eee955b0edee73139ac8cd7f6c9b30f9b6ef3999bd5dc8b196452f467c2472ee93c439f9c08112ae9880dcf6511bceaa783f9ce2f5665825f01b31c24542dd5f1357a43586c4bf2eb50cb20037d8cf70797a33ed1fd591ad3eac1abb5fb226d15f2f32b47103b962f41e29e9450b04e290e76afc01d83ff540ae2b7a8f44627cda9ce3dddc09f025074113f1d6ce41e76642b6f7640313f65ed4580a521a76d650864bb89f59aa604ae37a145bce9a45967de4f9b1b4ebba1b203edec5a57ee2e426204ad9ac63347178cfc16697bf2a28d04065aa3d586bdece7abe6fe4d858d6b4a705d09d2590cfeea26e096bfea046546a3e510a8429f41f5ecb569dc65a7b6de6c5bacbf9407a11114c3c6cc2e102395f4de5582fe4ef863f4b5d50e4cb26a3deff9dffeee1d0230e225db371f5707925a8b71a6b6a18b7e75c09c6ad731064b8da78fdc3940b2657f0488165e0fab0f55c3f614535566acb0bb230e0852cd156baccc0018788ed46a082229c38324d576af98b154375b86a4a9846a9cd673b600240e56d5e748378e930c3f4cab3a0eebe3a0b1fc457ee86e48b460db1f485292305835de45f0185f11efb288d5228836851fe136db93adeb092207f675a01fc7b1189136b1c0aacf42b0de75b155669c53e6605e8c67022c495c31f5eb26ae89ad1b4774093115b43ab07f554413ee99a090a50db42494c34e77839f78b506eb1ee5c13e07f2ed24b482f1da1d3631972aa86c6b68d21497c4686f2364feb05d76fa2ab998ba13aed8e7f5a7632e2eb45b4bbf14c0596f6ca62335a0e9492e825f7ce0ce6989888566ac7e0b0b828fcc9710c40edecfdbcb3f8d3cbeaa192b2ef9d5128f497f0af848cc78d55e94720d5329546c70f66774cc2c6c0b3646c365b5227839f962fc01d918d64af2b674e3f35be723546deee7c0b7834dea69a3811dc239d5d84fdfd5aa3184f49c45ed092fa06688a356e28c129421761944309d450e05832c5fca63257fc6666968411f0cb1066800546f897731b06e1b3ae6f5013229bda7]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My First Post!</title>
+      <link href="/2019/08/02/My-First-Post/"/>
+      <url>/2019/08/02/My-First-Post/</url>
+      
+        <content type="html"><![CDATA[<p>我的第一篇blog<br><a id="more"></a><br>今天就是我开始使用Hexo的第一天啦!</p><p>超级开心终于终于搭完了这个blog。即使有着详细的教程对我来说也实在是太不容易了。报错报得令我心累（偷偷抹泪)</p><p>总之很开心也很有成就感吖，毕竟是拥有一个独属于我的area了。</p><p>其实本来还想把一些之前的笔记还有打卡等等搬上来的。但是Typora还没有下载好，根据目前下载那个速度，我估计emmm，下完我都睡着了吧。那么Hexo，Day 1，早睡打卡，滴！</p>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[My First Post!]]></title>
-    <url>%2F2019%2F08%2F02%2FMy-First-Post%2F</url>
-    <content type="text"><![CDATA[我的第一篇blog今天就是我开始使用Hexo的第一天啦! 超级开心终于终于搭完了这个blog。即使有着详细的教程对我来说也实在是太不容易了。报错报得令我心累（偷偷抹泪) 总之很开心也很有成就感吖，毕竟是拥有一个独属于我的area了。 其实本来还想把一些之前的笔记还有打卡等等搬上来的。但是Typora还没有下载好，根据目前下载那个速度，我估计emmm，下完我都睡着了吧。那么Hexo，Day 1，早睡打卡，滴！]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>

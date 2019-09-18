@@ -1612,7 +1612,7 @@ a.toc-link {
   right: 10rem;
 }
 .is-active-link {
-  font-weight: 900;
+  font-weight: 700;
 }
 .toc-link::before {
   background-color: #e6e6e6;

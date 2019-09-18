@@ -9,6 +9,7 @@
   
     <meta name="description" content="Is Magicland">
   
+
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
     categories |
@@ -23,6 +24,16 @@
   
   <script src="/js/pace.min.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
+
+```php+HTML
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+</div>
+```
+
+
+
 </html>
 <body>
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><main class="content">
@@ -48,6 +59,15 @@
     </ul>
   </div>
 </footer>
+
+```php+HTML
+<script async src="path/to/waifu-tips.js"></script>
+<script src="path/to/live2d.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "path/to/model.json");
+</script>
+```
+
 
 </main>
 
@@ -140,8 +160,8 @@
             all[i].SourceElement().parentNode.className += ' has-jax';
     });
 </script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300,"hOffset":40,"vOffset":-50},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300,"hOffset":40,"vOffset":-50},"mobile":{"show":true},"log":false,"tagMode":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 </html>
 
 

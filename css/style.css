@@ -1581,7 +1581,7 @@ img {
   top: 14rem;
   left: calc((100vw - 70rem) / 2 + 70rem);
   font-size: 80%;
-  opacity: 0.8;
+  opacity: 0.12;
 }
 .tocbot > .toc-list {
   position: relative;

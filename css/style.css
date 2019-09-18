@@ -1111,12 +1111,12 @@ img {
   }
   .wrap,
   .outer {
-    width: 65rem;
+    width: 63rem;
     padding-right: 0;
     padding-left: 0;
   }
   .local-search {
-    width: 65rem;
+    width: 63rem;
   }
 }
 .list-unstyled,

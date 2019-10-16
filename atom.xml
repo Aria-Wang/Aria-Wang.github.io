@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Aria-Wang.github.io/"/>
-  <updated>2019-10-09T16:36:57.892Z</updated>
+  <updated>2019-10-16T17:58:45.653Z</updated>
   <id>http://Aria-Wang.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mathematical-Analysis中的一些常用公式（持续更新）</title>
+    <link href="http://Aria-Wang.github.io/2019/10/17/Mathematical-Analysis%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F/"/>
+    <id>http://Aria-Wang.github.io/2019/10/17/Mathematical-Analysis中的一些常用公式/</id>
+    <published>2019-10-16T17:57:10.000Z</published>
+    <updated>2019-10-16T17:58:45.653Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;绝对值三角不等式&quot;&gt;&lt;a href=&quot;#绝对值三角不等式&quot; class=&quot;headerlink&quot; title=&quot;绝对值三角不等式&quot;&gt;&lt;/a&gt;绝对值三角不等式&lt;/h3&gt;&lt;script type=&quot;math/tex;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="http://Aria-Wang.github.io/categories/Note/"/>
+    
+    
+      <category term="Mathematical-Analysis" scheme="http://Aria-Wang.github.io/tags/Mathematical-Analysis/"/>
+    
+  </entry>
   
   <entry>
     <title>什么迷茫啊，还不就是懒惰</title>
@@ -121,7 +148,7 @@
     <link href="http://Aria-Wang.github.io/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B/"/>
     <id>http://Aria-Wang.github.io/2019/09/15/《天才基本法》/</id>
     <published>2019-09-14T17:24:45.000Z</published>
-    <updated>2019-09-22T14:06:44.932Z</updated>
+    <updated>2019-10-16T16:24:29.004Z</updated>
     
     <summary type="html">
     

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[“快”时代的遗忘]]></title>
+    <url>%2F2019%2F11%2F02%2F%E2%80%9C%E5%BF%AB%E2%80%9D%E6%97%B6%E4%BB%A3%E7%9A%84%E9%81%97%E5%BF%98%2F</url>
+    <content type="text"><![CDATA[人们的喜欢与厌恶都来的太过于容易以及强烈了一些 一个人如果今天干了一件事情很合意，于是就对TA很喜欢；可是呢，突然某一天，TA又干了一件事情令人不是那么满意了，于是又转为憎恶了。 其实不妨等一等的吧？试问谁能永远是对的呢？ 大家都急于表达自己的意见与看法，通过种种方式，包括对于一个人行为的认可与否认的站队。 互联网时代的遗忘未免来的太过容易了一些，无论是对于丑恶还是美好 借用人间失格的句式，若无极度的厌恶，哪来强烈的欢喜。可是频繁反复的喜恶，终归使得那份喜欢变得廉价了起来 长长久久，也许委实难了一些吧]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Mathematical-Analysis中的一些常用公式（持续更新）]]></title>
     <url>%2F2019%2F10%2F17%2FMathematical-Analysis%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F%2F</url>
     <content type="text"><![CDATA[一些常用的数分公式 绝对值三角不等式 max\{a,b\}={a+b\over2}+{\lvert a-b\lvert\over2}\\ min\{a,b\}={a+b\over2}-{\lvert a-b\lvert\over2}我们对高中时有所涉及的绝对值三角不等式做一个拓宽，即 \forall x,y\in R,\lvert\lvert x\lvert-\lvert y\lvert\lvert\lt\lvert x\pm y\lvert\le\lvert x\lvert+\lvert y\lvert.\\ 等号成立\Leftrightarrow x与\pm y同号习题1 求证\lvert x-a\lvert+\lvert x-b\lvert+\lvert x-(a+b)\lvert\ge max\{a,b\} 思路：绝对值三角不等式＋放缩 证明： \lvert x-a\lvert+\lvert x-(a+b)\lvert+\lvert x-b\lvert\ge\lvert b\lvert+\lvert x-b\lvert\ge b\\ \lvert x-a\lvert+\lvert x-(a+b)\lvert+\lvert x-b\lvert\ge\lvert x-a\lvert+\lvert a\lvert\ge a综上可得， \lvert x-a\lvert+\lvert x-b\lvert+\lvert x-(a+b)\lvert\ge max\{a,b\}即证. 总结： 学会合适的放缩是解决不等式相关问题的关键 目前解决绝对值问题的方法主要有： 通过已知条件推断符号 平方 分类讨论 绝对值三角不等式 补充-Bernoulli不等式 设a_1,a_2,\cdots,a_n是n个正数（或n个大于-1的负数）\\ 则(1+a_1)(1+a_2)\cdots(1+a_n)\ge1+a_1+a_2+\cdots+a_n 注： n=1时，“=”成立； 当a_1=a_2=\cdots=a_n=x,(x\gt-1)\\ \forall n\in N,(1+x)^n\ge1+nx 证明 Bernoulli不等式-第一数学归纳法 Bernoulli不等式的特殊情况（x&gt;-1）-第二数学归纳法 均值不等式]]></content>

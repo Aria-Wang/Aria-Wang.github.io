@@ -154,4 +154,12 @@
         <category>Diary</category>
       </categories>
   </entry>
+  <entry>
+    <title><![CDATA[My First Post!]]></title>
+    <url>%2F2019%2F08%2F02%2FMy-First-Post%2F</url>
+    <content type="text"><![CDATA[我的第一篇blog今天就是我开始使用Hexo的第一天啦! 超级开心终于终于搭完了这个blog。即使有着详细的教程对我来说也实在是太不容易了。报错报得令我心累（偷偷抹泪) 总之很开心也很有成就感吖，毕竟是拥有一个独属于我的area了。 其实本来还想把一些之前的笔记还有打卡等等搬上来的。但是Typora还没有下载好，根据目前下载那个速度，我估计emmm，下完我都睡着了吧。那么Hexo，Day 1，早睡打卡，滴！]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
 </search>

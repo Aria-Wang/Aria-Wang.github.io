@@ -4,12 +4,11 @@
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
   
-    <meta name="keywords" content="Aria">
+    <meta name="keywords" content="Aria-Wang,Is Magic">
   
   
     <meta name="description" content="Is Magicland">
   
-
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
     Discrete Mathematics |
@@ -22,8 +21,18 @@
   
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
   
-  <script src="/js/pace.min.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <script src="/js/pace.min.js"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "516ff52a"
+    });
+  daovoice('update');
+  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
 </head>
+
 
 
 </html>
@@ -79,12 +88,11 @@
 
 
       
-
       
         <p>在一个二值逻辑系统中，命题是一个或真或假的陈述语句.</p>
 <a id="more"></a>
 <hr>
-<p>离散数学主要分为几个大部分：</p>
+<p><font color="lightblue" size="7">离</font>散数学主要分为几个大部分：</p>
 <ol>
 <li>数理逻辑</li>
 <li>集合论</li>
@@ -110,7 +118,7 @@
 <li>x+y&gt;4                      ×</li>
 <li>真好啊！                 √</li>
 <li>你去哪里？             ×</li>
-<li>我正在说谎             <strong><em>？</em></strong>   </li>
+<li>我正在说谎             <strong><em>？</em></strong> </li>
 </ol>
 </blockquote>
 <h3 id="悖论"><a href="#悖论" class="headerlink" title="悖论"></a>悖论</h3><p>断言（6）是一个<strong>悖论</strong>而非命题。</p>
@@ -170,43 +178,100 @@
 </div>
 <p>联结词就是命题演算中的运算符，叫逻辑运算符或叫逻辑联结词。</p>
 <p>常用联结词如下：</p>
-<script type="math/tex; mode=display">
-1.否定词\lnot\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\
-2.合取词\land\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\
-3.析取词\lor\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\
-4.蕴含词\to\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\
-5.等值词\leftrightarrow    \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad</script><p>很自然地，这令人联想起初高中阶段所学习的（不完备的）集合论：“否定词”即“非”；“合取词”即“交（∩）”；“析取词”即“并（∪）；“蕴含词”则类似于“推出”即“（p是q的）充分/必要条件”；同样的，“等值词”则类似于充要条件。</p>
+<ol>
+<li>否定词$\lnot$</li>
+<li>合取词$\land$</li>
+<li>析取词$\lor$</li>
+<li>蕴含词$\to$</li>
+<li>等值词$\leftrightarrow$</li>
+</ol>
+<p>很自然地，这令人联想起初高中阶段所学习的（不完备的）集合论：“否定词”即“非”；“合取词”即“交（∩）”；“析取词”即“并（∪）；“蕴含词”则类似于“推出”即“（p是q的）充分/必要条件”；同样的，“等值词”则类似于充要条件。</p>
 <blockquote>
 <p>命题逻辑中，为了符号化复合命题，定义了五个表示联结词的符号，称为逻辑联结词。</p>
 <p>数理逻辑的研究方法的主要特征即：构造各种符号语言来代替自然语言，我们称完全由符号所构成的语言为形式语言。为了达到这个目的，就要求进一步抽象化，即将联结词也符号化。</p>
 </blockquote>
-<h4 id="否定词"><a href="#否定词" class="headerlink" title="否定词"></a>否定词</h4><script type="math/tex; mode=display">
-\forall命题P，我们称命题“P不真”为P的否定或非P，记作\lnot P.    \qquad \qquad</script><p>即对命题的否定</p>
-<h4 id="合取词"><a href="#合取词" class="headerlink" title="合取词"></a>合取词</h4><script type="math/tex; mode=display">
-\forall 命题P、Q，我们称命题“P并且Q”为P和Q的合取，记为P\land Q.    \qquad</script><p>真值表</p>
-<script type="math/tex; mode=display">
-P\qquad \qquad Q\qquad \quad P\land Q\\
-0\qquad \qquad \; 0\qquad \qquad \; 0\quad  \\
-0\qquad \qquad \; 1\qquad \qquad 0\quad \\
-1\qquad \qquad \; 0\qquad \qquad 0\quad \\
-1\qquad \qquad \; 1\qquad \qquad 1\quad</script><h4 id="析取词，即，或："><a href="#析取词，即，或：" class="headerlink" title="析取词，即，或："></a>析取词，即，或：</h4><script type="math/tex; mode=display">
-\forall 命题P、Q，我们称命题“P或Q”为P和Q的析取，记为P\lor Q.    \qquad</script><p>真值表</p>
-<script type="math/tex; mode=display">
-P\qquad \qquad Q\qquad \qquad P\lor Q\\
-0\qquad \qquad \; 0\qquad \qquad \quad  0\quad \\
-0\qquad \qquad \; 1\qquad \qquad \quad 1\quad \\
-1\qquad \qquad \; 0\qquad \qquad \quad 1\quad \\
-1\qquad \qquad \; 1\qquad \qquad \quad 1\quad</script><ul>
+<h4 id="否定词"><a href="#否定词" class="headerlink" title="否定词"></a>否定词</h4><p>$\qquad \forall $命题P，我们称命题“P不真”为P的否定或非P，记作$\lnot$ P. 即对命题的否定</p>
+<h4 id="合取词"><a href="#合取词" class="headerlink" title="合取词"></a>合取词</h4><p>$\qquad \forall $命题P、Q，我们称命题“P并且Q”为P和Q的合取，记为P$\land$ Q.</p>
+<p>真值表</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">P</th>
+<th style="text-align:center">Q</th>
+<th style="text-align:center">P$\land$Q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="析取词，即，或："><a href="#析取词，即，或：" class="headerlink" title="析取词，即，或："></a>析取词，即，或：</h4><p>$\qquad \forall $命题P、Q，我们称命题“P或Q”为P和Q的析取，记为P$\lor$ Q. </p>
+<p>真值表</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">P</th>
+<th style="text-align:center">Q</th>
+<th style="text-align:center">P$\lor$Q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
 <li>生活语言中“或者”是指从联结的几部分中选一，<em>而逻辑联结词“或”都是指联结的几部分中<strong>至少选一。</strong></em></li>
 <li>在数理逻辑中，或分为<strong>可兼或</strong>与<strong>不可兼或</strong>，通常情况下，我们讨论的都是不可兼或（至少这本教材是）</li>
 </ul>
 <blockquote>
 <ul>
-<li>可兼或：<script type="math/tex; mode=display">
-P:今晚我看书\qquad \qquad \qquad \qquad \qquad \qquad \\
-Q:今晚我写字\qquad \qquad \qquad \qquad \qquad \qquad \\
-\; P\lor Q:今晚我看书或写字\qquad \qquad \qquad \qquad \\
-\; \; \; P\land Q:今晚我既看书也写字    \qquad \qquad \qquad \qquad</script>真值表</li>
+<li><p>可兼或：</p>
+<p>P:今晚我看书<br>Q:今晚我写字<br>P$\lor$ Q:今晚我看书或写字<br>P$\land$ Q:今晚我既看书也写字</p>
+<p>真值表</p>
+<p>|  P   |  Q   | P$\lor$ Q |<br>| :—: | :—: | :———-: |<br>|  1   |  1   |     1     |</p>
+</li>
 </ul>
 <script type="math/tex; mode=display">
 P\qquad \qquad Q\qquad \quad P\lor Q\\1\qquad \qquad \; 1\qquad \qquad \; 1\quad</script><ul>
@@ -279,13 +344,12 @@ P\qquad \qquad Q\qquad \qquad P\leftrightarrow Q\\
 <li>矛盾式：公式真值恒为0（永假式）</li>
 <li>可满足式：不是矛盾式</li>
 </ul>
-<hr>
 <h6 id="课本"><a href="#课本" class="headerlink" title="课本"></a>课本</h6><p>[1] 离散数学（第三版）-方世昌编著-&lt;先电子科技大学出版社&gt;</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://Aria-Wang.github.io/2019/09/15/Discrete-Mathematics（一）/" data-id="ck5lsutpp001b7cb6lbc4onh6"
+      <a data-url="http://Aria-Wang.github.io/2019/09/15/Discrete-Mathematics（一）/" data-id="ck5mjk540001f9ob6bgfp1s75"
          class="article-share-link">Share</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Discrete-Mathematics/">Discrete-Mathematics</a></li></ul>
@@ -321,29 +385,11 @@ P\qquad \qquad Q\qquad \qquad P\leftrightarrow Q\\
 
   
 
-  
-    
-  <div class="gitalk" id="gitalk-container"></div>
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
-  <script type="text/javascript">
-    var gitalk = new Gitalk({
-      clientID: '0a72a9336c2b15c1491c',
-      clientSecret: 'e6bad1881f51489aa33426ee5cf0b761e158552e',
-      repo: 'website-comments',
-      owner: 'Aria-Wang',
-      admin: ['Aria-Wang'],
-      // id: location.pathname,      // Ensure uniqueness and length less than 50
-      id: md5(location.pathname),
-      distractionFreeMode: false,  // Facebook-like distraction free mode
-      pagerDirection: 'last'
-    })
+ 
+	
+	
+	[object Promise]
 
-  gitalk.render('gitalk-container')
-  </script>
-
-  
 
 </article>
 
@@ -482,6 +528,23 @@ P\qquad \qquad Q\qquad \qquad P\leftrightarrow Q\\
 <script src="/js/ocean.js"></script>
 
 <script type="text/javascript" src="/js/clicklove.js"></script>
+
+```
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+```
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
@@ -496,8 +559,8 @@ P\qquad \qquad Q\qquad \qquad P\leftrightarrow Q\\
             all[i].SourceElement().parentNode.className += ' has-jax';
     });
 </script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300,"hOffset":40,"vOffset":-50},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300,"hOffset":40,"vOffset":-50},"mobile":{"show":true},"log":false,"tagMode":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 </html>
 
 

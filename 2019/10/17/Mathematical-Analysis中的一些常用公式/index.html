@@ -4,12 +4,11 @@
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
   
-    <meta name="keywords" content="Aria">
+    <meta name="keywords" content="Aria-Wang,Is Magic">
   
   
     <meta name="description" content="Is Magicland">
   
-
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
     Mathematical-Analysis中的一些常用公式（持续更新） |
@@ -22,8 +21,18 @@
   
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
   
-  <script src="/js/pace.min.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <script src="/js/pace.min.js"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "516ff52a"
+    });
+  daovoice('update');
+  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
 </head>
+
 
 
 </html>
@@ -79,15 +88,14 @@
 
 
       
-
       
         <p>一些常用的数分公式</p>
 <a id="more"></a>
-<h2 id="绝对值三角不等式"><a href="#绝对值三角不等式" class="headerlink" title="绝对值三角不等式"></a>绝对值三角不等式</h2><p>$<br>max\{a,b\}={a+b\over2}+{\lvert a-b\lvert\over2}\\\<br>min\{a,b\}={a+b\over2}-{\lvert a-b\lvert\over2}<br>$</p>
-<p>我们对高中时有所涉及的绝对值三角不等式做一个拓宽，即</p>
+<h2 id="绝对值三角不等式"><a href="#绝对值三角不等式" class="headerlink" title="绝对值三角不等式"></a>绝对值三角不等式</h2><script type="math/tex; mode=display">
+max\{a,b\}={a+b\over2}+{\lvert a-b\lvert\over2},min\{a,b\}={a+b\over2}-{\lvert a-b\lvert\over2}</script><p>我们对高中时有所涉及的绝对值三角不等式做一个拓宽，即</p>
 <script type="math/tex; mode=display">
-\forall x,y\in R,\lvert\lvert x\lvert-\lvert y\lvert\lvert\lt\lvert x\pm y\lvert\le\lvert x\lvert+\lvert y\lvert.\\
-等号成立\Leftrightarrow x与\pm y同号</script><h3 id="习题1"><a href="#习题1" class="headerlink" title="习题1"></a>习题1</h3><script type="math/tex; mode=display">
+\forall x,y\in R,\lvert\lvert x\lvert-\lvert y\lvert\lvert\lt\lvert x\pm y\lvert\le\lvert x\lvert+\lvert y\lvert.\\</script><p>等号成立$\Leftrightarrow x$与$\pm y$同号</p>
+<h3 id="习题1"><a href="#习题1" class="headerlink" title="习题1"></a>习题1</h3><script type="math/tex; mode=display">
 求证\lvert x-a\lvert+\lvert x-b\lvert+\lvert x-(a+b)\lvert\ge max\{a,b\}</script><blockquote>
 <p>思路：绝对值三角不等式＋放缩</p>
 </blockquote>
@@ -109,27 +117,23 @@
 </li>
 <li><p>绝对值三角不等式</p>
 </li>
-<li><p>补充-Bernoulli不等式</p>
-<script type="math/tex; mode=display">
-设a_1,a_2,\cdots,a_n是n个正数（或n个大于-1的负数）\\
-则(1+a_1)(1+a_2)\cdots(1+a_n)\ge1+a_1+a_2+\cdots+a_n</script><ul>
+<li><p>补充-Bernoulli不等式<br>$<br>\qquad \qquad 设a_1,a_2,\cdots,a_n是n个正数（或n个大于-1的负数）\\<br>\qquad 则(1+a_1)(1+a_2)\cdots(1+a_n)\ge1+a_1+a_2+\cdots+a_n<br>$</p>
+<ul>
 <li><p>注：</p>
 <ul>
 <li><p>n=1时，“=”成立；</p>
 </li>
-<li><script type="math/tex; mode=display">
-当a_1=a_2=\cdots=a_n=x,(x\gt-1)\\
-\forall n\in N,(1+x)^n\ge1+nx</script></li>
+<li><p>$ 当a_1=a_2=\cdots=a_n=x,(x\gt-1),  \forall n\in N,(1+x)^n\ge1+nx $</p>
+</li>
 <li><p>证明</p>
-<ul>
-<li>Bernoulli不等式-第一数学归纳法</li>
-<li>Bernoulli不等式的特殊情况（x&gt;-1）-第二数学归纳法</li>
-</ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
+<li><p>Bernoulli不等式-第一数学归纳法</p>
+<pre><code>- Bernoulli不等式的特殊情况（x&gt;-1）-第二数学归纳法
+</code></pre></li>
 </ul>
 </li>
 </ol>
@@ -137,7 +141,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://Aria-Wang.github.io/2019/10/17/Mathematical-Analysis中的一些常用公式/" data-id="ck5lsutmp00007cb69sx2pea4"
+      <a data-url="http://Aria-Wang.github.io/2019/10/17/Mathematical-Analysis中的一些常用公式/" data-id="ck5mjk52h000c9ob62xpfph9j"
          class="article-share-link">Share</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mathematical-Analysis/">Mathematical-Analysis</a></li></ul>
@@ -173,29 +177,11 @@
 
   
 
-  
-    
-  <div class="gitalk" id="gitalk-container"></div>
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
-  <script type="text/javascript">
-    var gitalk = new Gitalk({
-      clientID: '0a72a9336c2b15c1491c',
-      clientSecret: 'e6bad1881f51489aa33426ee5cf0b761e158552e',
-      repo: 'website-comments',
-      owner: 'Aria-Wang',
-      admin: ['Aria-Wang'],
-      // id: location.pathname,      // Ensure uniqueness and length less than 50
-      id: md5(location.pathname),
-      distractionFreeMode: false,  // Facebook-like distraction free mode
-      pagerDirection: 'last'
-    })
+ 
+	
+	
+	[object Promise]
 
-  gitalk.render('gitalk-container')
-  </script>
-
-  
 
 </article>
 
@@ -334,6 +320,23 @@
 <script src="/js/ocean.js"></script>
 
 <script type="text/javascript" src="/js/clicklove.js"></script>
+
+```
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+```
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
@@ -348,8 +351,8 @@
             all[i].SourceElement().parentNode.className += ' has-jax';
     });
 </script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300,"hOffset":40,"vOffset":-50},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300,"hOffset":40,"vOffset":-50},"mobile":{"show":true},"log":false,"tagMode":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 </html>
 
 

@@ -887,21 +887,19 @@ body {
   margin: 0;
   overflow-x: hidden;
   text-size-adjust: 100%;
+  color: #127ea9;
 }
 body ::selection {
   background: #5c6b72;
   color: #e6e6e6;
 }
-a {
-  color: #127ea9;
-}
-a:hover {
+body:hover {
   color: #1594c6;
 }
-a:active {
+body:active {
   color: #1178a1;
 }
-a.disabled {
+body.disabled {
   color: #adb5bd;
 }
 img {
@@ -989,11 +987,14 @@ img {
   border: none;
 }
 .article-entry table {
-  width: 100%;
+  width: 70%;
   border-collapse: collapse;
   vertical-align: middle;
   empty-cells: show;
-  text-align: left;
+  text-align: center !important /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/;
+}
+.article-entry table th {
+  background-color: rgba(255,245,238,0.6);
 }
 .article-entry table th,
 .article-entry table td,
@@ -1005,7 +1006,11 @@ img {
   padding: 1rem 1.5rem;
 }
 .article-entry table tbody tr:nth-child(2n) {
-  background-color: rgba(230,230,230,0.25);
+  background-color: rgba(255,245,238,0.35);
+}
+.article-entry table tbody tr:hover {
+  background: #f8f8ff;
+/*鼠标悬浮表格行变色*/
 }
 .article-entry blockquote {
   display: block;

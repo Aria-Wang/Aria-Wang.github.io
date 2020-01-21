@@ -739,6 +739,16 @@ pre {
 }
 a {
   background-color: transparent;
+  color: #127ea9;
+}
+a:hover {
+  color: #179fd5;
+}
+a:active {
+  color: #1178a1;
+}
+a.disabled {
+  color: #adb5bd;
 }
 abbr[title] {
   border-bottom: none /* 1 */;
@@ -894,7 +904,7 @@ body ::selection {
   color: #e6e6e6;
 }
 body:hover {
-  color: #1594c6;
+  color: #179fd5;
 }
 body:active {
   color: #1178a1;
@@ -991,7 +1001,7 @@ img {
   border-collapse: collapse;
   vertical-align: middle;
   empty-cells: show;
-  text-align: center !important /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/;
+  text-align: left;
 }
 .article-entry table th {
   background-color: rgba(255,245,238,0.6);
@@ -1017,8 +1027,8 @@ img {
   padding: 0 1.5rem;
   width: 100%;
   overflow: auto;
-  border-left: 0.3rem #9c8079 solid;
-  color: #5c6b72;
+  border-left: 0.3rem #b0e0e6 solid;
+  color: #ade0e0;
 }
 .article-entry blockquote > :first-child {
   margin-top: 0;
@@ -2327,7 +2337,7 @@ pre .javascript .function {
   cursor: pointer;
 }
 .navbar .nav .nav-item-link:hover {
-  color: #1594c6;
+  color: #179fd5;
 }
 .navbar .nav.nav-main .nav-item-link::before,
 .navbar .nav.nav-main .nav-item-link i.fe {

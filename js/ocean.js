@@ -75,10 +75,10 @@
       encodedUrl = encodeURIComponent(url),
       id = 'article-share-box-' + $this.attr('data-id'),
       offset = $this.offset();
-
+    
     if ($('#' + id).length) {
       var box = $('#' + id);
-
+    
       if (box.hasClass('on')) {
         box.removeClass('on');
         return;
@@ -95,12 +95,12 @@
         '</div>',
         '</div>'
       ].join('');
-
+    
       var box = $(html);
       $('body').append(box);
     }
     $('.article-share-box.on').hide();
-
+    
     box.css({
       top: offset.top + 25,
       left: offset.left
@@ -153,10 +153,10 @@
 
     // Our scroll link element
     var scrollElem = $('#totop');
-
+    
     // Scroll to top speed
     var scrollSpeed = 1600;
-
+    
     // Show and hide the scroll to top link based on scroll position
     scrollElem.hide();
     $(window).scroll(function () {
@@ -167,7 +167,7 @@
         $(scrollElem).stop().fadeTo(300, 0); // fade out
       }
     });
-
+    
     // Scroll to top animation on click
     $(scrollElem).click(function(){
       $('html, body').animate({scrollTop:0}, scrollSpeed); return false;

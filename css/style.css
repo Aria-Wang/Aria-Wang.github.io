@@ -903,15 +903,6 @@ body ::selection {
   background: #5c6b72;
   color: #e6e6e6;
 }
-body:hover {
-  color: #179fd5;
-}
-body:active {
-  color: #1178a1;
-}
-body.disabled {
-  color: #adb5bd;
-}
 img {
   max-width: 100%;
 }

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://aria-wang.github.io/gallery/index.html</loc>
+    
+    <lastmod>2020-01-27T07:46:40.721Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://aria-wang.github.io/2019/09/15/Discrete-Mathematics%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     
     <lastmod>2020-01-21T05:53:29.509Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://aria-wang.github.io/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B/</loc>
     
     <lastmod>2020-01-18T07:00:17.854Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://aria-wang.github.io/gallery/index.html</loc>
-    
-    <lastmod>2020-01-18T06:52:23.012Z</lastmod>
     
   </url>
   

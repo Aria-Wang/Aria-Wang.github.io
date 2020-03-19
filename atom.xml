@@ -5,21 +5,42 @@
   <subtitle>一以贯之的努力，不得懈怠的人生。每天的微小积累会决定最终结果，这就是答案</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://Aria-Wang.github.io/"/>
-  <updated>2020-02-21T05:20:41.401Z</updated>
-  <id>http://Aria-Wang.github.io/</id>
+  <link href="http://aria-wang.github.io/"/>
+  <updated>2020-03-18T00:28:57.398Z</updated>
+  <id>http://aria-wang.github.io/</id>
   
   <author>
     <name>Aria-Wang</name>
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Advanced Algebra 1</title>
+    <link href="http://aria-wang.github.io/2020/03/12/Advanced-Algebra-1/"/>
+    <id>http://aria-wang.github.io/2020/03/12/Advanced-Algebra-1/</id>
+    <published>2020-03-12T12:20:34.000Z</published>
+    <updated>2020-03-18T00:28:57.398Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;高代笔记第一弹&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Advanced-Algebra" scheme="http://Aria-Wang.github.io/tags/Advanced-Algebra/"/>
+    
+  </entry>
   
   <entry>
     <title>ADHD的自救之路[持续更新]</title>
-    <link href="http://Aria-Wang.github.io/2020/02/21/ADHD%E7%9A%84%E8%87%AA%E6%95%91%E4%B9%8B%E8%B7%AF/"/>
-    <id>http://Aria-Wang.github.io/2020/02/21/ADHD的自救之路/</id>
+    <link href="http://aria-wang.github.io/2020/02/21/ADHD%E7%9A%84%E8%87%AA%E6%95%91%E4%B9%8B%E8%B7%AF/"/>
+    <id>http://aria-wang.github.io/2020/02/21/ADHD%E7%9A%84%E8%87%AA%E6%95%91%E4%B9%8B%E8%B7%AF/</id>
     <published>2020-02-21T03:53:05.000Z</published>
     <updated>2020-02-21T05:20:41.401Z</updated>
     
@@ -37,8 +58,8 @@
   
   <entry>
     <title>谨以纪念叶企孙先生</title>
-    <link href="http://Aria-Wang.github.io/2020/02/19/%E8%B0%A8%E4%BB%A5%E7%BA%AA%E5%BF%B5%E5%8F%B6%E4%BC%81%E5%AD%99%E5%85%88%E7%94%9F/"/>
-    <id>http://Aria-Wang.github.io/2020/02/19/谨以纪念叶企孙先生/</id>
+    <link href="http://aria-wang.github.io/2020/02/19/%E8%B0%A8%E4%BB%A5%E7%BA%AA%E5%BF%B5%E5%8F%B6%E4%BC%81%E5%AD%99%E5%85%88%E7%94%9F/"/>
+    <id>http://aria-wang.github.io/2020/02/19/%E8%B0%A8%E4%BB%A5%E7%BA%AA%E5%BF%B5%E5%8F%B6%E4%BC%81%E5%AD%99%E5%85%88%E7%94%9F/</id>
     <published>2020-02-19T06:51:32.000Z</published>
     <updated>2020-02-21T03:51:30.634Z</updated>
     
@@ -56,8 +77,8 @@
   
   <entry>
     <title>REST IN PEACE</title>
-    <link href="http://Aria-Wang.github.io/2020/02/07/REST-IN-PEACE/"/>
-    <id>http://Aria-Wang.github.io/2020/02/07/REST-IN-PEACE/</id>
+    <link href="http://aria-wang.github.io/2020/02/07/REST-IN-PEACE/"/>
+    <id>http://aria-wang.github.io/2020/02/07/REST-IN-PEACE/</id>
     <published>2020-02-06T16:20:18.000Z</published>
     <updated>2020-02-08T09:53:43.859Z</updated>
     
@@ -75,8 +96,8 @@
   
   <entry>
     <title>hexo-ocean主题的一些优化</title>
-    <link href="http://Aria-Wang.github.io/2020/01/17/hexo-ocean%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BC%98%E5%8C%96/"/>
-    <id>http://Aria-Wang.github.io/2020/01/17/hexo-ocean主题的一些优化/</id>
+    <link href="http://aria-wang.github.io/2020/01/17/hexo-ocean%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BC%98%E5%8C%96/"/>
+    <id>http://aria-wang.github.io/2020/01/17/hexo-ocean%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BC%98%E5%8C%96/</id>
     <published>2020-01-17T14:40:27.000Z</published>
     <updated>2020-02-08T09:51:01.491Z</updated>
     
@@ -96,8 +117,8 @@
   
   <entry>
     <title>自我拯救计划</title>
-    <link href="http://Aria-Wang.github.io/2019/11/18/%E8%87%AA%E6%88%91%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/"/>
-    <id>http://Aria-Wang.github.io/2019/11/18/自我拯救计划/</id>
+    <link href="http://aria-wang.github.io/2019/11/18/%E8%87%AA%E6%88%91%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/"/>
+    <id>http://aria-wang.github.io/2019/11/18/%E8%87%AA%E6%88%91%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</id>
     <published>2019-11-18T15:38:11.000Z</published>
     <updated>2020-02-08T09:54:13.133Z</updated>
     
@@ -115,8 +136,8 @@
   
   <entry>
     <title>言语如刀</title>
-    <link href="http://Aria-Wang.github.io/2019/11/03/%E8%A8%80%E8%AF%AD%E5%A6%82%E5%88%80/"/>
-    <id>http://Aria-Wang.github.io/2019/11/03/言语如刀/</id>
+    <link href="http://aria-wang.github.io/2019/11/03/%E8%A8%80%E8%AF%AD%E5%A6%82%E5%88%80/"/>
+    <id>http://aria-wang.github.io/2019/11/03/%E8%A8%80%E8%AF%AD%E5%A6%82%E5%88%80/</id>
     <published>2019-11-03T15:30:36.000Z</published>
     <updated>2020-02-07T14:35:12.178Z</updated>
     
@@ -140,8 +161,8 @@
   
   <entry>
     <title>Sky, A Reflection of The Ocean</title>
-    <link href="http://Aria-Wang.github.io/2019/11/02/%E5%A4%A9%E7%A9%BA%E6%98%AF%E6%B5%B7%E6%B4%8B%E7%9A%84%E5%80%92%E5%BD%B1/"/>
-    <id>http://Aria-Wang.github.io/2019/11/02/天空是海洋的倒影/</id>
+    <link href="http://aria-wang.github.io/2019/11/02/%E5%A4%A9%E7%A9%BA%E6%98%AF%E6%B5%B7%E6%B4%8B%E7%9A%84%E5%80%92%E5%BD%B1/"/>
+    <id>http://aria-wang.github.io/2019/11/02/%E5%A4%A9%E7%A9%BA%E6%98%AF%E6%B5%B7%E6%B4%8B%E7%9A%84%E5%80%92%E5%BD%B1/</id>
     <published>2019-11-02T12:42:08.000Z</published>
     <updated>2020-02-21T04:24:53.798Z</updated>
     
@@ -161,8 +182,8 @@
   
   <entry>
     <title>“快”时代的遗忘</title>
-    <link href="http://Aria-Wang.github.io/2019/11/02/%E2%80%9C%E5%BF%AB%E2%80%9D%E6%97%B6%E4%BB%A3%E7%9A%84%E9%81%97%E5%BF%98/"/>
-    <id>http://Aria-Wang.github.io/2019/11/02/“快”时代的遗忘/</id>
+    <link href="http://aria-wang.github.io/2019/11/02/%E2%80%9C%E5%BF%AB%E2%80%9D%E6%97%B6%E4%BB%A3%E7%9A%84%E9%81%97%E5%BF%98/"/>
+    <id>http://aria-wang.github.io/2019/11/02/%E2%80%9C%E5%BF%AB%E2%80%9D%E6%97%B6%E4%BB%A3%E7%9A%84%E9%81%97%E5%BF%98/</id>
     <published>2019-11-02T12:02:27.000Z</published>
     <updated>2020-02-19T15:01:49.823Z</updated>
     
@@ -180,8 +201,8 @@
   
   <entry>
     <title>Mathematical-Analysis中的一些常用公式（持续更新）</title>
-    <link href="http://Aria-Wang.github.io/2019/10/17/Mathematical-Analysis%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F/"/>
-    <id>http://Aria-Wang.github.io/2019/10/17/Mathematical-Analysis中的一些常用公式/</id>
+    <link href="http://aria-wang.github.io/2019/10/17/Mathematical-Analysis%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F/"/>
+    <id>http://aria-wang.github.io/2019/10/17/Mathematical-Analysis%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F/</id>
     <published>2019-10-16T17:57:10.000Z</published>
     <updated>2020-02-08T09:52:45.023Z</updated>
     
@@ -201,8 +222,8 @@
   
   <entry>
     <title>什么迷茫啊，还不就是懒惰</title>
-    <link href="http://Aria-Wang.github.io/2019/10/10/%E4%BB%80%E4%B9%88%E8%BF%B7%E8%8C%AB%E5%95%8A%EF%BC%8C%E8%BF%98%E4%B8%8D%E5%B0%B1%E6%98%AF%E6%87%92%E6%83%B0/"/>
-    <id>http://Aria-Wang.github.io/2019/10/10/什么迷茫啊，还不就是懒惰/</id>
+    <link href="http://aria-wang.github.io/2019/10/10/%E4%BB%80%E4%B9%88%E8%BF%B7%E8%8C%AB%E5%95%8A%EF%BC%8C%E8%BF%98%E4%B8%8D%E5%B0%B1%E6%98%AF%E6%87%92%E6%83%B0/"/>
+    <id>http://aria-wang.github.io/2019/10/10/%E4%BB%80%E4%B9%88%E8%BF%B7%E8%8C%AB%E5%95%8A%EF%BC%8C%E8%BF%98%E4%B8%8D%E5%B0%B1%E6%98%AF%E6%87%92%E6%83%B0/</id>
     <published>2019-10-09T16:17:07.000Z</published>
     <updated>2020-02-21T04:24:23.790Z</updated>
     
@@ -220,8 +241,8 @@
   
   <entry>
     <title>最近突然忙碌了起来</title>
-    <link href="http://Aria-Wang.github.io/2019/10/01/%E6%9C%80%E8%BF%91%E7%AA%81%E7%84%B6%E5%BF%99%E7%A2%8C%E4%BA%86%E8%B5%B7%E6%9D%A5/"/>
-    <id>http://Aria-Wang.github.io/2019/10/01/最近突然忙碌了起来/</id>
+    <link href="http://aria-wang.github.io/2019/10/01/%E6%9C%80%E8%BF%91%E7%AA%81%E7%84%B6%E5%BF%99%E7%A2%8C%E4%BA%86%E8%B5%B7%E6%9D%A5/"/>
+    <id>http://aria-wang.github.io/2019/10/01/%E6%9C%80%E8%BF%91%E7%AA%81%E7%84%B6%E5%BF%99%E7%A2%8C%E4%BA%86%E8%B5%B7%E6%9D%A5/</id>
     <published>2019-10-01T05:34:09.000Z</published>
     <updated>2020-02-21T04:24:12.749Z</updated>
     
@@ -239,8 +260,8 @@
   
   <entry>
     <title>有少年气究竟是好事还是坏事呢</title>
-    <link href="http://Aria-Wang.github.io/2019/09/23/%E6%89%80%E8%B0%93%E5%B0%91%E5%B9%B4%E6%B0%94/"/>
-    <id>http://Aria-Wang.github.io/2019/09/23/所谓少年气/</id>
+    <link href="http://aria-wang.github.io/2019/09/23/%E6%89%80%E8%B0%93%E5%B0%91%E5%B9%B4%E6%B0%94/"/>
+    <id>http://aria-wang.github.io/2019/09/23/%E6%89%80%E8%B0%93%E5%B0%91%E5%B9%B4%E6%B0%94/</id>
     <published>2019-09-22T18:03:13.000Z</published>
     <updated>2020-02-21T04:24:02.721Z</updated>
     
@@ -258,8 +279,8 @@
   
   <entry>
     <title>Discrete Mathematics</title>
-    <link href="http://Aria-Wang.github.io/2019/09/15/Discrete-Mathematics%EF%BC%88%E4%B8%80%EF%BC%89/"/>
-    <id>http://Aria-Wang.github.io/2019/09/15/Discrete-Mathematics（一）/</id>
+    <link href="http://aria-wang.github.io/2019/09/15/Discrete-Mathematics%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://aria-wang.github.io/2019/09/15/Discrete-Mathematics%EF%BC%88%E4%B8%80%EF%BC%89/</id>
     <published>2019-09-15T15:20:19.000Z</published>
     <updated>2020-02-08T09:45:47.346Z</updated>
     
@@ -279,8 +300,8 @@
   
   <entry>
     <title>无关童话</title>
-    <link href="http://Aria-Wang.github.io/2019/09/15/%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D/"/>
-    <id>http://Aria-Wang.github.io/2019/09/15/无关童话/</id>
+    <link href="http://aria-wang.github.io/2019/09/15/%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D/"/>
+    <id>http://aria-wang.github.io/2019/09/15/%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D/</id>
     <published>2019-09-14T19:41:40.000Z</published>
     <updated>2020-02-08T09:51:43.263Z</updated>
     
@@ -301,8 +322,8 @@
   
   <entry>
     <title>天才基本法</title>
-    <link href="http://Aria-Wang.github.io/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B/"/>
-    <id>http://Aria-Wang.github.io/2019/09/15/《天才基本法》/</id>
+    <link href="http://aria-wang.github.io/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B/"/>
+    <id>http://aria-wang.github.io/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B/</id>
     <published>2019-09-14T17:24:45.000Z</published>
     <updated>2020-02-08T09:30:48.490Z</updated>
     
@@ -323,8 +344,8 @@
   
   <entry>
     <title>今日份水逆（好吧是我自找的）</title>
-    <link href="http://Aria-Wang.github.io/2019/09/15/%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89/"/>
-    <id>http://Aria-Wang.github.io/2019/09/15/今日份水逆（好吧是我自找的）/</id>
+    <link href="http://aria-wang.github.io/2019/09/15/%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89/"/>
+    <id>http://aria-wang.github.io/2019/09/15/%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89/</id>
     <published>2019-09-14T16:13:39.000Z</published>
     <updated>2020-02-21T04:23:27.860Z</updated>
     
@@ -342,8 +363,8 @@
   
   <entry>
     <title>希望会是全新的开始吧</title>
-    <link href="http://Aria-Wang.github.io/2019/09/07/%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7/"/>
-    <id>http://Aria-Wang.github.io/2019/09/07/希望会是全新的开始吧/</id>
+    <link href="http://aria-wang.github.io/2019/09/07/%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7/"/>
+    <id>http://aria-wang.github.io/2019/09/07/%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7/</id>
     <published>2019-09-07T12:19:39.000Z</published>
     <updated>2020-02-21T04:23:13.545Z</updated>
     
@@ -361,8 +382,8 @@
   
   <entry>
     <title>那些优秀的人</title>
-    <link href="http://Aria-Wang.github.io/2019/08/18/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E4%BA%BA/"/>
-    <id>http://Aria-Wang.github.io/2019/08/18/那些优秀的人/</id>
+    <link href="http://aria-wang.github.io/2019/08/18/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E4%BA%BA/"/>
+    <id>http://aria-wang.github.io/2019/08/18/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E4%BA%BA/</id>
     <published>2019-08-18T02:57:19.000Z</published>
     <updated>2020-02-08T09:36:47.142Z</updated>
     
@@ -380,33 +401,14 @@
   
   <entry>
     <title>突然感觉有点累</title>
-    <link href="http://Aria-Wang.github.io/2019/08/13/%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E7%B4%AF/"/>
-    <id>http://Aria-Wang.github.io/2019/08/13/突然感觉有点累/</id>
+    <link href="http://aria-wang.github.io/2019/08/13/%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E7%B4%AF/"/>
+    <id>http://aria-wang.github.io/2019/08/13/%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E7%B4%AF/</id>
     <published>2019-08-13T13:14:19.000Z</published>
     <updated>2020-02-21T04:22:48.489Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;不知何处涌上来的疲惫，不过我也确实睡不够很久了……&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://Aria-Wang.github.io/categories/Diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>总是在懒惰与发奋之间反复摇摆</title>
-    <link href="http://Aria-Wang.github.io/2019/08/06/%E6%80%BB%E6%98%AF%E5%9C%A8%E6%87%92%E6%83%B0%E4%B8%8E%E5%8F%91%E5%A5%8B%E4%B9%8B%E9%97%B4%E5%8F%8D%E5%A4%8D%E6%91%87%E6%91%86/"/>
-    <id>http://Aria-Wang.github.io/2019/08/06/总是在懒惰与发奋之间反复摇摆/</id>
-    <published>2019-08-06T02:51:23.000Z</published>
-    <updated>2020-02-21T04:22:34.368Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;font color=aliblue&gt;下雨天总是令我思绪万千，也总让我感到懒洋洋的&lt;/font&gt;&lt;/p&gt;
     
     </summary>
     

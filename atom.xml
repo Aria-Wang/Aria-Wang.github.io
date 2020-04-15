@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aria-wang.github.io/"/>
-  <updated>2020-04-02T09:54:50.894Z</updated>
+  <updated>2020-04-15T04:29:06.231Z</updated>
   <id>http://aria-wang.github.io/</id>
   
   <author>
@@ -15,6 +15,151 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>guess-猜数小程序</title>
+    <link href="http://aria-wang.github.io/2020/04/15/guess-%E7%8C%9C%E6%95%B0%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <id>http://aria-wang.github.io/2020/04/15/guess-%E7%8C%9C%E6%95%B0%E5%B0%8F%E7%A8%8B%E5%BA%8F/</id>
+    <published>2020-04-15T04:27:49.000Z</published>
+    <updated>2020-04-15T04:29:06.231Z</updated>
+    
+    <summary type="html">
+    
+      随堂小作业——写一个猜数小程序
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Python" scheme="http://Aria-Wang.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>05-列表</title>
+    <link href="http://aria-wang.github.io/2020/04/15/05-%E5%88%97%E8%A1%A8/"/>
+    <id>http://aria-wang.github.io/2020/04/15/05-%E5%88%97%E8%A1%A8/</id>
+    <published>2020-04-15T04:26:19.000Z</published>
+    <updated>2020-04-15T04:27:06.126Z</updated>
+    
+    <summary type="html">
+    
+      Python笔记第五弹
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Python" scheme="http://Aria-Wang.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>04-for循环</title>
+    <link href="http://aria-wang.github.io/2020/04/15/04-for%E5%BE%AA%E7%8E%AF/"/>
+    <id>http://aria-wang.github.io/2020/04/15/04-for%E5%BE%AA%E7%8E%AF/</id>
+    <published>2020-04-15T04:25:07.000Z</published>
+    <updated>2020-04-15T04:25:57.548Z</updated>
+    
+    <summary type="html">
+    
+      Python笔记第四弹
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Python" scheme="http://Aria-Wang.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>03-while循环</title>
+    <link href="http://aria-wang.github.io/2020/04/15/03-while%E5%BE%AA%E7%8E%AF/"/>
+    <id>http://aria-wang.github.io/2020/04/15/03-while%E5%BE%AA%E7%8E%AF/</id>
+    <published>2020-04-15T04:23:26.000Z</published>
+    <updated>2020-04-15T04:24:07.966Z</updated>
+    
+    <summary type="html">
+    
+      Python笔记第三弹
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Python" scheme="http://Aria-Wang.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>02-条件语句</title>
+    <link href="http://aria-wang.github.io/2020/04/15/02-%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5/"/>
+    <id>http://aria-wang.github.io/2020/04/15/02-%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5/</id>
+    <published>2020-04-15T04:21:57.000Z</published>
+    <updated>2020-04-15T04:22:39.415Z</updated>
+    
+    <summary type="html">
+    
+      Python笔记第二弹
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Python" scheme="http://Aria-Wang.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>01-hello python</title>
+    <link href="http://aria-wang.github.io/2020/04/15/01-hello-python/"/>
+    <id>http://aria-wang.github.io/2020/04/15/01-hello-python/</id>
+    <published>2020-04-15T04:17:53.000Z</published>
+    <updated>2020-04-15T04:21:11.470Z</updated>
+    
+    <summary type="html">
+    
+      Python笔记第一弹
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Python" scheme="http://Aria-Wang.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>粉红色的大象</title>
+    <link href="http://aria-wang.github.io/2020/04/11/%E7%B2%89%E7%BA%A2%E8%89%B2%E7%9A%84%E5%A4%A7%E8%B1%A1/"/>
+    <id>http://aria-wang.github.io/2020/04/11/%E7%B2%89%E7%BA%A2%E8%89%B2%E7%9A%84%E5%A4%A7%E8%B1%A1/</id>
+    <published>2020-04-11T12:12:51.000Z</published>
+    <updated>2020-04-12T02:13:30.857Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt; &lt;\p&gt;
+    
+    </summary>
+    
+    
+      <category term="Diary" scheme="http://Aria-Wang.github.io/categories/Diary/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>我觉得不是</title>
@@ -78,11 +223,11 @@
   </entry>
   
   <entry>
-    <title>ADHD的自救之路[持续更新]</title>
+    <title>ADHD的自救之路</title>
     <link href="http://aria-wang.github.io/2020/02/21/ADHD%E7%9A%84%E8%87%AA%E6%95%91%E4%B9%8B%E8%B7%AF/"/>
     <id>http://aria-wang.github.io/2020/02/21/ADHD%E7%9A%84%E8%87%AA%E6%95%91%E4%B9%8B%E8%B7%AF/</id>
     <published>2020-02-21T03:53:05.000Z</published>
-    <updated>2020-04-02T02:38:38.461Z</updated>
+    <updated>2020-04-11T12:40:55.469Z</updated>
     
     <summary type="html">
     
@@ -272,147 +417,6 @@
     <summary type="html">
     
       &lt;p&gt;所有一切都不过是我给自己找的借口罢了……&lt;p/&gt;
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://Aria-Wang.github.io/categories/Diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>最近突然忙碌了起来</title>
-    <link href="http://aria-wang.github.io/2019/10/01/%E6%9C%80%E8%BF%91%E7%AA%81%E7%84%B6%E5%BF%99%E7%A2%8C%E4%BA%86%E8%B5%B7%E6%9D%A5/"/>
-    <id>http://aria-wang.github.io/2019/10/01/%E6%9C%80%E8%BF%91%E7%AA%81%E7%84%B6%E5%BF%99%E7%A2%8C%E4%BA%86%E8%B5%B7%E6%9D%A5/</id>
-    <published>2019-10-01T05:34:09.000Z</published>
-    <updated>2020-02-21T04:24:12.749Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;突然开始的忙碌，以及，我想以后我也会变得忙碌起来了……&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://Aria-Wang.github.io/categories/Diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>有少年气究竟是好事还是坏事呢</title>
-    <link href="http://aria-wang.github.io/2019/09/23/%E6%89%80%E8%B0%93%E5%B0%91%E5%B9%B4%E6%B0%94/"/>
-    <id>http://aria-wang.github.io/2019/09/23/%E6%89%80%E8%B0%93%E5%B0%91%E5%B9%B4%E6%B0%94/</id>
-    <published>2019-09-22T18:03:13.000Z</published>
-    <updated>2020-02-21T04:24:02.721Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;没有彻底沦为利益的驱使者与被驱使者，该庆幸还是说自己还不够成熟呢……&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://Aria-Wang.github.io/categories/Diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Discrete Mathematics 1</title>
-    <link href="http://aria-wang.github.io/2019/09/15/Discrete-Mathematics-1/"/>
-    <id>http://aria-wang.github.io/2019/09/15/Discrete-Mathematics-1/</id>
-    <published>2019-09-15T15:20:19.000Z</published>
-    <updated>2020-03-21T03:48:54.319Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在一个二值逻辑系统中，命题是一个或真或假的陈述语句.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
-    
-    
-      <category term="Discrete-Mathematics" scheme="http://Aria-Wang.github.io/tags/Discrete-Mathematics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>无关童话</title>
-    <link href="http://aria-wang.github.io/2019/09/15/%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D/"/>
-    <id>http://aria-wang.github.io/2019/09/15/%E6%97%A0%E5%85%B3%E7%AB%A5%E8%AF%9D/</id>
-    <published>2019-09-14T19:41:40.000Z</published>
-    <updated>2020-02-08T09:51:43.263Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;lightsalmon&quot;&gt;终其一生，从未想过她来&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;burlywood&quot;&gt;终其一世，从未想过她走&lt;/font&gt;&lt;/p&gt;&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
-    
-    
-      <category term="Read" scheme="http://Aria-Wang.github.io/tags/Read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>天才基本法</title>
-    <link href="http://aria-wang.github.io/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B/"/>
-    <id>http://aria-wang.github.io/2019/09/15/%E3%80%8A%E5%A4%A9%E6%89%8D%E5%9F%BA%E6%9C%AC%E6%B3%95%E3%80%8B/</id>
-    <published>2019-09-14T17:24:45.000Z</published>
-    <updated>2020-02-08T09:30:48.490Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;lightblue&quot; size=&quot;3&quot;&gt;——那每天努力也是一样，增加一点微小的概率，就会在不知不觉中赌注翻倍，成为人生赢家？&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;lightblue&quot; size=&quot;3&quot;&gt;——一以贯之的努力，不得懈怠的人生。每天的微小积累会决定最终结果，这就是答案&lt;/font&gt;&lt;/p&gt;&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
-    
-    
-      <category term="Read" scheme="http://Aria-Wang.github.io/tags/Read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>今日份水逆（好吧是我自找的）</title>
-    <link href="http://aria-wang.github.io/2019/09/15/%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89/"/>
-    <id>http://aria-wang.github.io/2019/09/15/%E4%BB%8A%E6%97%A5%E4%BB%BD%E6%B0%B4%E9%80%86%EF%BC%88%E5%A5%BD%E5%90%A7%E6%98%AF%E6%88%91%E8%87%AA%E6%89%BE%E7%9A%84%EF%BC%89/</id>
-    <published>2019-09-14T16:13:39.000Z</published>
-    <updated>2020-02-21T04:23:27.860Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;人最终总会为自己的行为负责&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://Aria-Wang.github.io/categories/Diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>希望会是全新的开始吧</title>
-    <link href="http://aria-wang.github.io/2019/09/07/%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7/"/>
-    <id>http://aria-wang.github.io/2019/09/07/%E5%B8%8C%E6%9C%9B%E4%BC%9A%E6%98%AF%E5%85%A8%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E5%90%A7/</id>
-    <published>2019-09-07T12:19:39.000Z</published>
-    <updated>2020-02-21T04:23:13.545Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;也算是重新出发吧……&lt;/p&gt;
     
     </summary>
     

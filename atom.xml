@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aria-wang.github.io/"/>
-  <updated>2020-04-15T05:28:13.858Z</updated>
+  <updated>2020-04-15T13:36:44.987Z</updated>
   <id>http://aria-wang.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>05-课后作业</title>
+    <link href="http://aria-wang.github.io/2020/04/15/05-%E8%AF%BE%E5%90%8E%E4%BD%9C%E4%B8%9A/"/>
+    <id>http://aria-wang.github.io/2020/04/15/05-%E8%AF%BE%E5%90%8E%E4%BD%9C%E4%B8%9A/</id>
+    <published>2020-04-15T13:11:11.000Z</published>
+    <updated>2020-04-15T13:36:44.987Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Notes" scheme="http://Aria-Wang.github.io/categories/Notes/"/>
+    
+    
+      <category term="Python" scheme="http://Aria-Wang.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>guess-猜数小程序</title>
@@ -42,7 +63,7 @@
     <link href="http://aria-wang.github.io/2020/04/15/05-%E5%88%97%E8%A1%A8/"/>
     <id>http://aria-wang.github.io/2020/04/15/05-%E5%88%97%E8%A1%A8/</id>
     <published>2020-04-15T04:26:19.000Z</published>
-    <updated>2020-04-15T08:17:52.015Z</updated>
+    <updated>2020-04-15T11:55:57.353Z</updated>
     
     <summary type="html">
     
@@ -390,25 +411,6 @@
     <summary type="html">
     
       &lt;p&gt;所有一切都不过是我给自己找的借口罢了……&lt;p/&gt;
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://Aria-Wang.github.io/categories/Diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>最近突然忙碌了起来</title>
-    <link href="http://aria-wang.github.io/2019/10/01/%E6%9C%80%E8%BF%91%E7%AA%81%E7%84%B6%E5%BF%99%E7%A2%8C%E4%BA%86%E8%B5%B7%E6%9D%A5/"/>
-    <id>http://aria-wang.github.io/2019/10/01/%E6%9C%80%E8%BF%91%E7%AA%81%E7%84%B6%E5%BF%99%E7%A2%8C%E4%BA%86%E8%B5%B7%E6%9D%A5/</id>
-    <published>2019-10-01T05:34:09.000Z</published>
-    <updated>2020-02-21T04:24:12.749Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;突然开始的忙碌，以及，我想以后我也会变得忙碌起来了……&lt;/p&gt;
     
     </summary>
     
